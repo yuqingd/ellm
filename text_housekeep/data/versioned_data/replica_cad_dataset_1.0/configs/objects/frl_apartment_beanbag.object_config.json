@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../objects/frl_apartment_beanbag.glb",
+  "collision_asset": "../../objects/convex/frl_apartment_beanbag_cv_decomp.glb",
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "mass": 11,
+  "join_collision_meshes": false,
+  "semantic_id": 6
+}

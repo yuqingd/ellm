@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../objects/frl_apartment_bowl_01.glb",
+  "collision_asset": "../../objects/convex/frl_apartment_bowl_01_cv_decomp.glb",
+  "mass": 4.5,
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 16
+}

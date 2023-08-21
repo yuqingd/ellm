@@ -1,0 +1,918 @@
+# exact copy of cos_eor/utils/non_art_scale_rotation_v2.yaml
+accepted:
+  ./data/objects/002_heavy_master_chef_can.object_config.json:
+    global_object: !!python/tuple
+      - 002_heavy_master_chef_can
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: &id001
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/002_master_chef_can.object_config.json:
+    global_object: !!python/tuple
+      - 002_master_chef_can
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id001
+  ./data/objects/003_cracker_box.object_config.json:
+    global_object: !!python/tuple
+      - 003_cracker_box
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/004_sugar_box.object_config.json:
+    global_object: !!python/tuple
+      - 004_sugar_box
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/005_tomato_soup_can.object_config.json:
+    global_object: !!python/tuple
+      - 005_tomato_soup_can
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/006_mustard_bottle.object_config.json:
+    global_object: !!python/tuple
+      - 006_mustard_bottle
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/007_tuna_fish_can.object_config.json:
+    global_object: !!python/tuple
+      - 007_tuna_fish_can
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.7
+      - 1.7
+      - 1.7
+  ./data/objects/008_pudding_box.object_config.json:
+    global_object: !!python/tuple
+      - 008_pudding_box
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/009_gelatin_box.object_config.json:
+    global_object: !!python/tuple
+      - 009_gelatin_box
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/010_potted_meat_can.object_config.json:
+    global_object: !!python/tuple
+      - 010_potted_meat_can
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/011_banana.object_config.json:
+    global_object: !!python/tuple
+      - 011_banana
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/012_strawberry.object_config.json:
+    global_object: !!python/tuple
+      - 012_strawberry
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: &id002
+      - 1.6
+      - 1.6
+      - 1.6
+  ./data/objects/013_apple.object_config.json:
+    global_object: !!python/tuple
+      - 013_apple
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id002
+  ./data/objects/014_lemon.object_config.json:
+    global_object: !!python/tuple
+      - 014_lemon
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id002
+  ./data/objects/015_peach.object_config.json:
+    global_object: !!python/tuple
+      - 015_peach
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id002
+  ./data/objects/016_pear.object_config.json:
+    global_object: !!python/tuple
+      - 016_pear
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id002
+  ./data/objects/017_orange.object_config.json:
+    global_object: !!python/tuple
+      - 017_orange
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id002
+  ./data/objects/018_plum.object_config.json:
+    global_object: !!python/tuple
+      - 018_plum
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.8
+      - 1.8
+      - 1.8
+  ./data/objects/019_pitcher_base.object_config.json:
+    global_object: !!python/tuple
+      - 019_pitcher_base
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/021_bleach_cleanser.object_config.json:
+    global_object: !!python/tuple
+      - 021_bleach_cleanser
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: &id003
+      - 1.3
+      - 1.3
+      - 1.3
+  ./data/objects/024_bowl.object_config.json:
+    global_object: !!python/tuple
+      - 024_bowl
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id003
+  ./data/objects/025_mug.object_config.json:
+    global_object: !!python/tuple
+      - 025_mug
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: &id004
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/026_sponge.object_config.json:
+    global_object: !!python/tuple
+      - 026_sponge
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale: *id004
+  ./data/objects/028_skillet_lid.object_config.json:
+    global_object: !!python/tuple
+      - 028_skillet_lid
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/029_plate.object_config.json:
+    global_object: !!python/tuple
+      - 029_plate
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/030_fork.object_config.json:
+    global_object: !!python/tuple
+      - 030_fork
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/031_spoon.object_config.json:
+    global_object: !!python/tuple
+      - 031_spoon
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/032_knife.object_config.json:
+    global_object: !!python/tuple
+      - 032_knife
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/033_spatula.object_config.json:
+    global_object: !!python/tuple
+      - 033_spatula
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.3
+      - 1.3
+      - 1.3
+  ./data/objects/035_power_drill.object_config.json:
+    global_object: !!python/tuple
+      - 035_power_drill
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/037_scissors.object_config.json:
+    global_object: !!python/tuple
+      - 037_scissors
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/038_padlock.object_config.json:
+    global_object: !!python/tuple
+      - 038_padlock
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/040_large_marker.object_config.json:
+    global_object: !!python/tuple
+      - 040_large_marker
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/042_adjustable_wrench.object_config.json:
+    global_object: !!python/tuple
+      - 042_adjustable_wrench
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/043_phillips_screwdriver.object_config.json:
+    global_object: !!python/tuple
+      - 043_phillips_screwdriver
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/044_flat_screwdriver.object_config.json:
+    global_object: !!python/tuple
+      - 044_flat_screwdriver
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/048_hammer.object_config.json:
+    global_object: !!python/tuple
+      - 048_hammer
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/050_medium_clamp.object_config.json:
+    global_object: !!python/tuple
+      - 050_medium_clamp
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.5
+      - 1.5
+      - 1.5
+  ./data/objects/051_large_clamp.object_config.json:
+    global_object: !!python/tuple
+      - 051_large_clamp
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/052_extra_large_clamp.object_config.json:
+    global_object: !!python/tuple
+      - 052_extra_large_clamp
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/053_mini_soccer_ball.object_config.json:
+    global_object: !!python/tuple
+      - 053_mini_soccer_ball
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/054_softball.object_config.json:
+    global_object: !!python/tuple
+      - 054_softball
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/055_baseball.object_config.json:
+    global_object: !!python/tuple
+      - 055_baseball
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.3
+      - 1.3
+      - 1.3
+  ./data/objects/056_tennis_ball.object_config.json:
+    global_object: !!python/tuple
+      - 056_tennis_ball
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.3
+      - 1.3
+      - 1.3
+  ./data/objects/057_racquetball.object_config.json:
+    global_object: !!python/tuple
+      - 057_racquetball
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/058_golf_ball.object_config.json:
+    global_object: !!python/tuple
+      - 058_golf_ball
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/059_chain.object_config.json:
+    global_object: !!python/tuple
+      - 059_chain
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/061_foam_brick.object_config.json:
+    global_object: !!python/tuple
+      - 061_foam_brick
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/065-a_cups.object_config.json:
+    global_object: !!python/tuple
+      - 065-a_cups
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/065-b_cups.object_config.json:
+    global_object: !!python/tuple
+      - 065-b_cups
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/065-c_cups.object_config.json:
+    global_object: !!python/tuple
+      - 065-c_cups
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/065-d_cups.object_config.json:
+    global_object: !!python/tuple
+      - 065-d_cups
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/065-e_cups.object_config.json:
+    global_object: !!python/tuple
+      - 065-e_cups
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/065-f_cups.object_config.json:
+    global_object: !!python/tuple
+      - 065-f_cups
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/070-a_colored_wood_blocks.object_config.json:
+    global_object: !!python/tuple
+      - 070-a_colored_wood_blocks
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/071_nine_hole_peg_test.object_config.json:
+    global_object: !!python/tuple
+      - 071_nine_hole_peg_test
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/072-a_toy_airplane.object_config.json:
+    global_object: !!python/tuple
+      - 072-a_toy_airplane
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/072-b_toy_airplane.object_config.json:
+    global_object: !!python/tuple
+      - 072-b_toy_airplane
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/073-a_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-a_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 2.0
+      - 2.0
+      - 2.0
+  ./data/objects/073-b_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-b_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 2.0
+      - 2.0
+      - 2.0
+  ./data/objects/073-c_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-c_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 2.0
+      - 2.0
+      - 2.0
+  ./data/objects/073-d_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-d_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 2.0
+      - 2.0
+      - 2.0
+  ./data/objects/073-e_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-e_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 2.0
+      - 2.0
+      - 2.0
+  ./data/objects/073-f_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-f_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 2.0
+      - 2.0
+      - 2.0
+  ./data/objects/073-g_lego_duplo.object_config.json:
+    global_object: !!python/tuple
+      - 073-g_lego_duplo
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.2
+      - 1.2
+      - 1.2
+  ./data/objects/077_rubiks_cube.object_config.json:
+    global_object: !!python/tuple
+      - 077_rubiks_cube
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - -0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+      - 0.4999999701976776
+    scale:
+      - 1.4
+      - 1.4
+      - 1.4
+  ./data/objects/donut.object_config.json:
+    global_object: !!python/tuple
+      - donut
+      - none
+      - ycb_or_ab_adjusted
+    rotation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    scale:
+      - 1.0
+      - 1.0
+      - 1.0
+rejected:
+

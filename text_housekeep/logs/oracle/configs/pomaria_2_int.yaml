@@ -1,0 +1,220 @@
+#BASE_TASK_CONFIG_PATH: "cos_eor/configs/base/rearrangement_gibson.yaml"
+
+BASE_TASK_CONFIG:
+  ENVIRONMENT:
+    MAX_EPISODE_STEPS: 1000
+
+  SIMULATOR:
+    TYPE: "ExploreSim-v0"
+    OBJ_LOAD_TYPE: "non-art"  # change to "art" to load URDFs
+    TURN_ANGLE: 10
+    TILT_ANGLE: 10    # this is the look-up / look-down angle
+    INITIAL_LOOK_DOWN_ANGLE: 30
+    ACTION_SPACE_CONFIG: "CosRearrangementActions-v0"
+    AGENT_0:
+      SENSORS: [ 'RGB_SENSOR', 'DEPTH_SENSOR', 'SEMANTIC_SENSOR' ]
+      HEIGHT: 1.5
+      RADIUS: 0.18
+      MAX_CLIMB: 0.1
+    HABITAT_SIM_V0:
+      GPU_DEVICE_ID: 0
+      ALLOW_SLIDING: True
+      ENABLE_PHYSICS: True
+      PHYSICS_CONFIG_FILE: "./data/default.physics_config.json"
+    RGB_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+      HFOV: 90
+      POSITION: [ 0, 1.5, 0 ]
+    SEMANTIC_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+      HFOV: 90
+      POSITION: [ 0, 1.5, 0 ]
+    # added only by debug argument, when running
+    RGB_SENSOR_3RD_PERSON:
+      WIDTH: 512
+      HEIGHT: 512
+      HFOV: 90
+      POSITION: [ 0, 1.5, 0.88 ]
+    DEPTH_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+      HFOV: 90
+      MIN_DEPTH: 0.5
+      MAX_DEPTH: 5.0
+      POSITION: [ 0, 1.5, 0 ]
+    OCCUPANCY_MAPS:
+      MAP_SCALE: 0.05
+      MAP_SIZE: 128
+      MAX_DEPTH: 3
+      SMALL_MAP_RANGE: 20
+      LARGE_MAP_RANGE: 100
+      HEIGHT_LOWER: 0.15
+      HEIGHT_UPPER: 1.5
+      GET_PROJ_LOC_MAP: False
+      USE_GT_OCC_MAP: False
+      MEASURE_NOISE_FREE_AREA: False
+      COVERAGE_NOVELTY_POOLING: "mean"
+      GET_HIGHRES_LOC_MAP: False
+    FINE_OCC_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+    COARSE_OCC_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+    HIGHRES_COARSE_OCC_SENSOR:
+      WIDTH: 256
+      HEIGHT: 256
+    OBJECT_ANNOTATIONS:
+      IS_AVAILABLE: False
+      PATH: "./"
+    ENABLE_ODOMETRY_NOISE: False
+    ODOMETER_NOISE_SCALING: 0.0
+    NAVMESH: "navmesh/{scene}_{num_objs}_approx.navmesh"
+
+  TASK:
+    TYPE: CosRearrangementTask-v0
+    # these actions have indices in below specified order!
+    POSSIBLE_ACTIONS: [ "STOP", "MOVE_FORWARD", "TURN_LEFT", "TURN_RIGHT", "LOOK_UP", "LOOK_DOWN", "GRAB_RELEASE" ]
+    SUCCESS_DISTANCE: -1.0  # obsolete
+    # SENSORS: ["COS_EOR_SENSOR", "FINE_OCC_SENSOR", "COARSE_OCC_SENSOR", "HIGHRES_COARSE_OCC_SENSOR", "DELTA_SENSOR", "COLLISION_SENSOR", "NEW_EPISODE_SENSOR", "SEEN_AREA_SENSOR"]
+    SENSORS: ["COS_EOR_SENSOR", "COARSE_OCC_SENSOR", "DELTA_SENSOR", "COLLISION_SENSOR", "NEW_EPISODE_SENSOR", "SEEN_AREA_SENSOR"]
+    COS_EOR_SENSOR:
+      CONTENT: ["ORACLE", "HIE"]
+    FINE_OCC_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+    COARSE_OCC_SENSOR:
+      WIDTH: 128
+      HEIGHT: 128
+    HIGHRES_COARSE_OCC_SENSOR:
+      WIDTH: 256
+      HEIGHT: 256
+
+    GOAL_SENSOR_UUID: object_goal
+    NEXT_OBJECT_SENSOR_UUID: oracle_next_object
+    COLLISIONS:
+      TYPE: "Collisions"
+    MEASUREMENTS: ["COLLISIONS", "OBJECT_TO_GOAL_DISTANCE" ]
+    SUCCESS:
+      SUCCESS_DISTANCE: 0.35
+    DISTANCE_TO_GOAL:
+      DISTANCE_TO: VIEW_POINTS
+    EOR_TOP_DOWN_MAP:
+      MAP_RESOLUTION: 256
+    ACTIONS:
+      GRAB_RELEASE:
+        GRAB_DISTANCE: 1.5
+        GRAB_TYPE: iid
+        CROSSHAIR_POS: [128, 128]
+
+  DATASET:
+    TYPE: CosRearrangementDataset-v0
+    SPLIT: "train"
+    CONTENT_SCENES: [
+        "Pomaria_2_int",
+    ]
+    DATA_PATH: "data/datasets/cos_eor_v11_pruned/{split}/"
+    CHECKPOINT_FILE: metrics-{tag}.csv
+
+TRAINER_NAME: "ddppo"
+ENV_NAME: "CosRearrangementRLEnv"
+SIMULATOR_GPU_ID: [0]
+TORCH_GPU_ID: 0
+NUM_PROCESSES: 1
+LOG_INTERVAL: 10
+CHECKPOINT_INTERVAL: 100
+VIDEO_INTERVAL: 30
+SAVE_VIDEO_AS_RAW_FRAMES: True
+NUM_CHECKPOINTS: -1
+NUM_UPDATES: 100000
+LOG_FILE: train.log
+CHECKPOINT_FOLDER: "data/checkpoints"
+METRICS_FILE: metrics-{tag}.csv
+REPLAY_DIR: "replays"
+STATES_FILE: "states/{tag}.csv"
+TURN_MEASURES_DIR: "turn_measures"
+VIDEO_OPTION: [""]
+TENSORBOARD_DIR: "tb"
+VIDEO_DIR: "videos"
+EVAL_CKPT_PATH_DIR: "data/checkpoints"
+SENSORS: ["DEPTH_SENSOR", "RGB_SENSOR", "SEMANTIC_SENSOR"]
+TEST_EPISODE_COUNT: 1000
+EVAL:
+  SPLIT: debug
+  CONTENT_SCENES: ["replica_split_debug_eps_1_objs_3_recs_2_th_0.95_sc_True_scene_Rs_int"]
+RL:
+  SUCCESS_REWARD: 2.5
+  SUCCESS_MEASURE: 'object_to_goal_distance'
+  REWARD_MEASURE: 'object_to_goal_distance'
+  SLACK_REWARD: -0.01
+  GRIPPED_SUCCESS_REWARD: 2.5
+  DROP_SUCCESS_REWARD: 2.5
+  GRIPPED_DROPPED_FAIL_REWARD: -0.2
+  AGENT_TO_OBJECT_SCALE: 1.0
+  AGENT_TO_GOAL_SCALE: 1.0
+  GRIPPED_WRONG_OBJECT: -0.5
+  COLLISION_REWARD: 0.0
+  REWARD_SCALE: 0.1
+  USE_SEMANTIC_FRAME: True
+
+  POLICY:
+    name: "HiePolicy"
+    score_threshold: 6.5e-2
+    oracle: False
+    rearrange_order: "discovery"
+    nav:
+      name: "OracleShortestPath"
+    explore:
+      name: "frontier"
+      type: "oracle"
+      max_steps_since_new_area: 10000
+      max_steps: 128
+      highres_occ_map_size: 128
+    rank:
+      name: "Oracle"
+      file: "cos_eor/scripts/orm/clip_scores.npy"
+      room_select: "model_scores"
+      room_stats_file: "obj_room_stats.json"
+      room_scores_file: "cos_eor/scripts/orm/clip_obj_room_scores.npy"
+
+  PPO:
+    # ppo params
+    clip_param: 0.2
+    ppo_epoch: 2
+    num_mini_batch: 1
+    value_loss_coef: 0.5
+    entropy_coef: 0.01
+    lr: 2.5e-4
+    eps: 1e-5
+    max_grad_norm: 0.2
+    num_steps: 1000
+    use_gae: True
+    gamma: 0.99
+    tau: 0.95
+    use_linear_clip_decay: False
+    use_linear_lr_decay: False
+    reward_window_size: 50
+    use_normalized_advantage: False
+    hidden_size: 256
+
+  DDPPO:
+    sync_frac: 0.6
+    # The PyTorch distributed backend to use
+    distrib_backend: GLOO
+    # Visual encoder backbone
+#    pretrained_weights: data/ddppo-models/gibson-2plus-resnet50.pth
+    # Initialize with pretrained weights
+    pretrained: False
+    # Initialize just the visual encoder backbone with pretrained weights
+    pretrained_encoder: True
+    # Whether or not the visual encoder backbone will be trained.
+    train_encoder: True
+    # Whether or not to reset the critic linear layer
+    reset_critic: True
+
+    # Model parameters
+    backbone: resnet18
+    rnn_type: LSTM
+    num_recurrent_layers: 2

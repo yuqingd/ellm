@@ -1,0 +1,1792 @@
+{
+    "stage_instance":{
+        "template_name": "frl_apartment_stage"
+    },
+    "default_lighting":  "lighting/frl_apartment_stage",
+    "object_instances": [
+        {
+            "template_name": "objects/frl_apartment_bin_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.165015697479248,
+                0.3466547429561615,
+                -2.6622021198272707
+            ],
+            "rotation": [
+                0.7076776027679443,
+                -0.000053672098147217187,
+                0.7065354585647583,
+                0.00006169457628857344
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bin_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -1.3251585960388184,
+                0.3210739195346832,
+                3.9757301807403566
+            ],
+            "rotation": [
+                0.7097904682159424,
+                0.0029600176494568588,
+                -0.7039664387702942,
+                -0.02490050531923771
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_lamp_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                2.1803841590881349,
+                0.9089738726615906,
+                7.62011194229126
+            ],
+            "rotation": [
+                0.9383215308189392,
+                -0.00009069577208720148,
+                -0.3457639515399933,
+                0.00003317180380690843
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_table_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                0.8824393153190613,
+                0.27982911467552187,
+                4.156684398651123
+            ],
+            "rotation": [
+                0.9999692440032959,
+                -0.000015080556295288261,
+                0.007842883467674256,
+                9.208889650835772e-7
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_remote-control_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                2.4896998405456545,
+                0.6320657730102539,
+                7.599305629730225
+            ],
+            "rotation": [
+                0.2915424108505249,
+                -0.00009903410682454705,
+                0.9565579295158386,
+                -0.00011479061504360288
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_handbag",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.346327304840088,
+                1.856691598892212,
+                -2.234387159347534
+            ],
+            "rotation": [
+                0.7359276413917542,
+                0.14802314341068269,
+                -0.6600260138511658,
+                0.029417438432574273
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_lamp_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.9875235557556154,
+                0.9947009682655335,
+                4.858991622924805
+            ],
+            "rotation": [
+                0.9999997615814209,
+                0.0006905339541845024,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_table_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.9949288368225099,
+                0.3530881702899933,
+                4.858132839202881
+            ],
+            "rotation": [
+                0.7071064114570618,
+                -0.000006277856300584972,
+                0.7071071267127991,
+                -8.636776982484662e-8
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_table_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.8669159412384035,
+                0.6667208671569824,
+                1.7936502695083619
+            ],
+            "rotation": [
+                0.7071067690849304,
+                -5.642074540901376e-8,
+                0.7071067690849304,
+                7.833346415964115e-8
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_chair_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.8600258827209474,
+                0.357848584651947,
+                0.23558364808559419
+            ],
+            "rotation": [
+                0.9511503577232361,
+                -0.00003690662560984492,
+                0.30872803926467898,
+                0.000037398403947008777
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_rug_02",
+            "motion_type": "STATIC",
+            "translation": [
+                2.1133978366851808,
+                0.005290286149829626,
+                5.568119049072266
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_rug_01",
+            "motion_type": "STATIC",
+            "translation": [
+                3.4437570571899416,
+                0.006776128429919481,
+                1.8044376373291016
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_indoor_plant_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                0.2819518446922302,
+                1.0723154544830323,
+                3.7419869899749758
+            ],
+            "rotation": [
+                0.9999991655349731,
+                1.5001567987837917e-7,
+                0.00129187002312392,
+                9.447417141927872e-7
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cushion_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.7681984901428224,
+                0.5607016086578369,
+                0.13625933229923249
+            ],
+            "rotation": [
+                0.9418275356292725,
+                0.004653741605579853,
+                0.33042412996292117,
+                0.06131171062588692
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cloth_01",
+            "motion_type": "STATIC",
+            "translation": [
+                -2.2230491638183595,
+                1.1905995607376099,
+                -2.3617970943450929
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bike_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.1433618068695069,
+                0.45573690533638,
+                2.8765969276428224
+            ],
+            "rotation": [
+                0.7025229334831238,
+                -0.0472860187292099,
+                -0.7085846662521362,
+                0.046188414096832278
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bike_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.101070404052734,
+                0.4566851258277893,
+                3.3560373783111574
+            ],
+            "rotation": [
+                0.002879929495975375,
+                0.08098495006561279,
+                0.9967063069343567,
+                0.0030937357805669309
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cloth_02",
+            "motion_type": "STATIC",
+            "translation": [
+                -2.2516186237335207,
+                1.0704928636550904,
+                -2.3985297679901125
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cloth_03",
+            "motion_type": "STATIC",
+            "translation": [
+                -2.2424943447113039,
+                1.2945414781570435,
+                -2.300184965133667
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cloth_04",
+            "motion_type": "STATIC",
+            "translation": [
+                -2.2304344177246095,
+                1.2314372062683106,
+                -1.8857876062393189
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_tv_object",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                2.9827609062194826,
+                0.6503527760505676,
+                7.652873992919922
+            ],
+            "rotation": [
+                0.9579485654830933,
+                -0.0011355024762451649,
+                0.28693723678588869,
+                -0.0005460716201923788
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_beanbag",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.0372896194458008,
+                0.38156914710998537,
+                7.21029806137085
+            ],
+            "rotation": [
+                0.9995642900466919,
+                -0.024248087778687478,
+                0.013324573636054993,
+                0.010281831957399845
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_stool_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.014025688171387,
+                0.7227219939231873,
+                4.854973793029785
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_towel",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.6926257610321047,
+                0.4752771854400635,
+                5.943562030792236
+            ],
+            "rotation": [
+                0.7123798727989197,
+                0.05078696459531784,
+                -0.6993639469146729,
+                -0.028736652806401254
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_tv_screen",
+            "motion_type": "STATIC",
+            "translation": [
+                2.5808496475219728,
+                1.4032648801803589,
+                7.853496551513672
+            ],
+            "rotation": [
+                1.0,
+                8.940696716308594e-8,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_beanbag",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.1546580791473389,
+                1.061152696609497,
+                7.413966178894043
+            ],
+            "rotation": [
+                0.9917511343955994,
+                0.046734731644392017,
+                -0.07665946334600449,
+                -0.09148159623146057
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_chair_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.555190324783325,
+                0.48359546065330508,
+                1.5237587690353394
+            ],
+            "rotation": [
+                0.7071468830108643,
+                0.000004216190063743852,
+                -0.7070666551589966,
+                -0.000003833069513348164
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_basket",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -1.9861869812011719,
+                1.0888967514038087,
+                0.03906160220503807
+            ],
+            "rotation": [
+                0.985019326210022,
+                -4.371856903162552e-7,
+                0.17244397103786469,
+                -0.000003918004949809983
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bowl_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2876017093658449,
+                1.9772011041641236,
+                2.503349447250366
+            ],
+            "rotation": [
+                0.9999822378158569,
+                0.000014056612599233631,
+                0.005960188806056976,
+                -0.0000015652702813895303
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bowl_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.304199457168579,
+                1.9638596773147584,
+                2.245972776412964
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bowl_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3,
+                1.9567735195159913,
+                2.026912832260132
+            ],
+            "rotation": [
+                0.9999687075614929,
+                0.0000302320986520499,
+                -0.007910925894975663,
+                -0.000015386147424578668
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bowl_06",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.014819860458374,
+                0.9837453961372376,
+                1.9435312747955323
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_choppingboard_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.4708938598632814,
+                1.1242313385009766,
+                0.2996366024017334
+            ],
+            "rotation": [
+                0.7692312598228455,
+                0.00110531784594059,
+                -0.0013364872429519892,
+                -0.6389680504798889
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cup_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.234513998031616,
+                0.9857884645462036,
+                2.5450756549835207
+            ],
+            "rotation": [
+                0.5828860998153687,
+                0.000028670585379586556,
+                -0.812553882598877,
+                -0.00009420434798812494
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cup_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2142345905303957,
+                0.9960245490074158,
+                2.034331798553467
+            ],
+            "rotation": [
+                0.8744184970855713,
+                -0.00002521073656680528,
+                0.48517245054244997,
+                0.00003168225521221757
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cup_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.013906240463257,
+                0.9967463612556458,
+                2.625093936920166
+            ],
+            "rotation": [
+                0.6396241188049316,
+                0.06905379146337509,
+                -0.7654446363449097,
+                -0.014391734264791012
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cup_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2631568908691408,
+                1.6163409948349,
+                -0.08692361414432526
+            ],
+            "rotation": [
+                0.9829491972923279,
+                0.010767311789095402,
+                0.1637144237756729,
+                -0.08302125334739685
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.386197328567505,
+                1.022586703300476,
+                1.8831344842910767
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.437999725341797,
+                1.073880672454834,
+                0.8075089454650879
+            ],
+            "rotation": [
+                0.9999997615814209,
+                0.0006905339541845024,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.437831401824951,
+                1.0738673210144044,
+                0.7520436644554138
+            ],
+            "rotation": [
+                0.9999915361404419,
+                -0.00012954336125403643,
+                0.0041076610796153549,
+                0.00019490181875880808
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.436215400695801,
+                1.0739861726760865,
+                0.6974746584892273
+            ],
+            "rotation": [
+                0.9999725818634033,
+                -0.001569421379826963,
+                0.007094753906130791,
+                -0.001427198527380824
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.4334378242492677,
+                1.0740242004394532,
+                0.6433703899383545
+            ],
+            "rotation": [
+                0.9999657869338989,
+                -0.0027388331945985557,
+                0.007687870878726244,
+                0.0013492224970832468
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3693156242370607,
+                1.0458850860595704,
+                0.800824761390686
+            ],
+            "rotation": [
+                0.9999994039535523,
+                -0.00008994694508146495,
+                -0.0010424728970974684,
+                0.0003118532185908407
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3692920207977297,
+                1.0459040403366089,
+                0.7443236708641052
+            ],
+            "rotation": [
+                0.9999990463256836,
+                0.00010164138075197116,
+                -0.0013468938414007426,
+                0.00028791255317628384
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.369438409805298,
+                1.0460492372512818,
+                0.6884550452232361
+            ],
+            "rotation": [
+                0.9999906420707703,
+                -0.0009539878810755909,
+                -0.0030415982473641636,
+                0.0029247840866446497
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3692519664764406,
+                1.045999526977539,
+                0.6329873204231262
+            ],
+            "rotation": [
+                0.9999945163726807,
+                -0.0017197633860632778,
+                -0.0023770960979163648,
+                0.0015359210083261133
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3854997158050539,
+                0.9939244985580444,
+                0.721407413482666
+            ],
+            "rotation": [
+                0.7067872881889343,
+                0.00019728817278519273,
+                -0.7074260711669922,
+                0.0002018552040681243
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_06",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3697190284729006,
+                1.0046637058258057,
+                0.49863335490226748
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_08",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2039573192596437,
+                1.0190194845199586,
+                0.27929049730300906
+            ],
+            "rotation": [
+                -0.22879289090633393,
+                0.000003108954160779831,
+                0.9734750986099243,
+                0.000008980802704172675
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_kitchen_utensil_09",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2895500659942629,
+                1.0437341928482056,
+                0.1773764193058014
+            ],
+            "rotation": [
+                0.9999998807907105,
+                0.00048828122089616954,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_knifeblock",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.348320484161377,
+                1.041719675064087,
+                0.3176872134208679
+            ],
+            "rotation": [
+                0.9997011423110962,
+                -0.00007316674600588158,
+                0.02444627694785595,
+                0.00001692515616014134
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_lamp_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3804707527160646,
+                1.114399790763855,
+                2.378129243850708
+            ],
+            "rotation": [
+                0.9999998807907105,
+                0.00048828122089616954,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_picture_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2016842365264894,
+                1.0591514110565186,
+                0.4152209162712097
+            ],
+            "rotation": [
+                -0.04066768288612366,
+                -0.00005865420098416507,
+                0.999172568321228,
+                -0.000600935542024672
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_plate_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.0237433910369875,
+                0.9642946720123291,
+                2.614530563354492
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_plate_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.0770363807678224,
+                0.9933274984359741,
+                2.235671281814575
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_small_appliance_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.1955883502960207,
+                1.1155740022659302,
+                1.1156119108200074
+            ],
+            "rotation": [
+                0.749016523361206,
+                -0.000006958800895517925,
+                -0.6625512838363648,
+                0.000003959777586715063
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_small_appliance_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2760539054870607,
+                1.1002179384231568,
+                0.001857951283454895
+            ],
+            "rotation": [
+                0.6880078911781311,
+                -0.000007215567620733054,
+                -0.725703239440918,
+                -0.000005757943199569127
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_sponge_dish",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3567285537719728,
+                1.0069804191589356,
+                2.0255465507507326
+            ],
+            "rotation": [
+                -0.08553820103406906,
+                -0.000035812074202112856,
+                0.9963349103927612,
+                -0.000122436074889265
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_vase_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2,
+                2.0105535984039308,
+                1.941804828643799
+            ],
+            "rotation": [
+                0.9993365406990051,
+                0.00002154601679649204,
+                0.03642084449529648,
+                -0.000012603006325662136
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_vase_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.2740066051483156,
+                2.2810397148132326,
+                2.029134750366211
+            ],
+            "rotation": [
+                0.9999997615814209,
+                0.0006905339541845024,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_picture_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.4342570304870607,
+                1.5330551862716675,
+                -1.3195114135742188
+            ],
+            "rotation": [
+                0.6999303102493286,
+                0.07739216089248657,
+                -0.705702543258667,
+                0.07805171608924866
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3010950088500978,
+                1.3920042514801026,
+                3.8241708278656008
+            ],
+            "rotation": [
+                0.70703125,
+                0.7070346474647522,
+                -0.0102181201800704,
+                0.010219680145382882
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3015787601470949,
+                1.4131965637207032,
+                3.8279683589935304
+            ],
+            "rotation": [
+                0.7069840431213379,
+                0.7071132659912109,
+                0.009048013016581536,
+                -0.009087827987968922
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.290618419647217,
+                1.4218953847885132,
+                3.923994541168213
+            ],
+            "rotation": [
+                0.8188551068305969,
+                -0.5734226703643799,
+                -0.009794243611395359,
+                -0.023807674646377565
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_box",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.3211724758148195,
+                1.7274651527404786,
+                3.81535267829895
+            ],
+            "rotation": [
+                0.690058708190918,
+                -0.007329364772886038,
+                0.7236536741256714,
+                -0.009517813101410866
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_clock",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.277099847793579,
+                0.5838412642478943,
+                3.8089792728424074
+            ],
+            "rotation": [
+                0.6518713235855103,
+                0.002293864032253623,
+                -0.7582876086235046,
+                0.007640450727194548
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_wall_cabinet_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.316240072250366,
+                1.0433440208435059,
+                3.807877779006958
+            ],
+            "rotation": [
+                0.7099927067756653,
+                -0.000006376491000992246,
+                0.70420902967453,
+                -0.000004281946530682035
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_mat",
+            "motion_type": "STATIC",
+            "translation": [
+                -1.5259588956832886,
+                0.04539213702082634,
+                1.527498483657837
+            ],
+            "rotation": [
+                0.7071068286895752,
+                2.9802322387695315e-8,
+                -0.7071068286895752,
+                5.960464477539063e-8
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_rack_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -0.5555658936500549,
+                0.3148326277732849,
+                -1.1010470390319825
+            ],
+            "rotation": [
+                0.708514392375946,
+                -0.000004012058980151778,
+                0.7056963443756104,
+                -0.000005306733328325208
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_shoe_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -0.5749887824058533,
+                0.35458773374557497,
+                -0.8608444929122925
+            ],
+            "rotation": [
+                0.7450863122940064,
+                -0.006604653783142567,
+                0.6669065952301025,
+                0.006194774992763996
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_shoe_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -0.5578382611274719,
+                0.35463249683380129,
+                -1.1301270723342896
+            ],
+            "rotation": [
+                0.7195775508880615,
+                -0.006487198639661074,
+                0.6943560838699341,
+                0.005982769653201103
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_shoe_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -0.5800401568412781,
+                0.3641471564769745,
+                -1.3685977458953858
+            ],
+            "rotation": [
+                0.7099436521530151,
+                -0.014001543633639813,
+                0.7040293216705322,
+                0.011255563236773014
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_shoe_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -0.5953161716461182,
+                0.15622417628765107,
+                -0.8723012804985046
+            ],
+            "rotation": [
+                0.710030198097229,
+                0.005396764725446701,
+                0.704087495803833,
+                -0.009422685950994492
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_indoor_plant_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.353768825531006,
+                1.7677980661392213,
+                -4.131920337677002
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cushion_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.056230068206787,
+                0.49198871850967409,
+                6.1275248527526859
+            ],
+            "rotation": [
+                -0.045276105403900149,
+                -0.6112546324729919,
+                0.13717268407344819,
+                0.7781397700309753
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cushion_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.0246232748031617,
+                0.4962620735168457,
+                4.989591121673584
+            ],
+            "rotation": [
+                -0.14050430059432984,
+                0.9699934124946594,
+                -0.12387816607952118,
+                0.15500156581401826
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_cushion_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                0.8835791945457459,
+                0.5323274731636047,
+                5.508640289306641
+            ],
+            "rotation": [
+                0.31054553389549258,
+                0.2908885180950165,
+                -0.05727570503950119,
+                0.9031416773796082
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_sofa",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                0.8339457511901856,
+                0.4820178747177124,
+                5.545198440551758
+            ],
+            "rotation": [
+                0.7071057558059692,
+                0.0014817403862252832,
+                -0.7071046829223633,
+                0.0014816847397014499
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.144432544708252,
+                0.9158661365509033,
+                7.844186782836914
+            ],
+            "rotation": [
+                0.014862542040646077,
+                0.00009048727224580944,
+                0.9998891949653626,
+                -0.0008499140967614949
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.144417762756348,
+                1.1403257846832276,
+                7.773386001586914
+            ],
+            "rotation": [
+                0.01710088737308979,
+                0.016715101897716523,
+                0.7069239020347595,
+                -0.7068853378295898
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.143435001373291,
+                1.167351484298706,
+                7.770631790161133
+            ],
+            "rotation": [
+                -0.06164589896798134,
+                -0.06124754995107651,
+                -0.7044184803962708,
+                0.7044453024864197
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.144254684448242,
+                1.194403886795044,
+                7.773308753967285
+            ],
+            "rotation": [
+                -0.017414091154932977,
+                -0.017058130353689195,
+                -0.7068792581558228,
+                0.7069140672683716
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.1432929039001469,
+                0.9164108037948608,
+                7.817111015319824
+            ],
+            "rotation": [
+                0.015134070999920369,
+                -0.0038627951871603729,
+                0.9998774528503418,
+                -0.0011566784232854844
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.149075984954834,
+                0.6482919454574585,
+                7.2800798416137699
+            ],
+            "rotation": [
+                -0.013469452038407326,
+                0.01305686216801405,
+                0.7069726586341858,
+                0.7069920897483826
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.1440749168396,
+                1.7234872579574586,
+                7.5009894371032719
+            ],
+            "rotation": [
+                -0.006681316997855902,
+                0.006295050028711557,
+                0.7070611715316773,
+                0.7070930004119873
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_03",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.1433024406433109,
+                1.4164776802062989,
+                7.492197513580322
+            ],
+            "rotation": [
+                -0.006539699621498585,
+                0.006132169626653194,
+                0.7070664763450623,
+                0.7070902585983276
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.145872592926025,
+                0.9025728106498718,
+                7.8654680252075199
+            ],
+            "rotation": [
+                0.014802944846451283,
+                -0.00033091611112467945,
+                0.9998900890350342,
+                -0.0008670390816405416
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.145547866821289,
+                1.2156046628952027,
+                7.743866920471191
+            ],
+            "rotation": [
+                0.7071248888969421,
+                0.7070885896682739,
+                -0.00000462751495433622,
+                0.0003476662386674434
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.143841743469238,
+                0.8522953987121582,
+                7.727768898010254
+            ],
+            "rotation": [
+                0.011495412327349186,
+                -0.009985821321606636,
+                0.789447009563446,
+                0.6136296987533569
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.1620097160339359,
+                1.419674038887024,
+                7.74333381652832
+            ],
+            "rotation": [
+                0.0007361928001046181,
+                0.0003434023819863796,
+                0.7071205377578735,
+                -0.7070925235748291
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.162024974822998,
+                1.4196919202804566,
+                7.270340919494629
+            ],
+            "rotation": [
+                -0.0008589465287514031,
+                0.0004597619699779898,
+                0.70709228515625,
+                0.7071206569671631
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.161824703216553,
+                1.440688133239746,
+                7.392159461975098
+            ],
+            "rotation": [
+                0.00018628040561452508,
+                -0.0005171797820366919,
+                0.6882423162460327,
+                0.7254807353019714
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.195527076721191,
+                1.4425158500671387,
+                7.203643321990967
+            ],
+            "rotation": [
+                -0.0035705927293747665,
+                0.003173460252583027,
+                0.7070850729942322,
+                0.7071123719215393
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_book_06",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.164199352264404,
+                0.5809600353240967,
+                7.274552822113037
+            ],
+            "rotation": [
+                -0.01644279435276985,
+                0.01604282297194004,
+                0.706911027431488,
+                0.7069293260574341
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_box",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.138121128082275,
+                0.8805810809135437,
+                7.314980506896973
+            ],
+            "rotation": [
+                0.7073303461074829,
+                -0.0015307585708796979,
+                0.706879734992981,
+                0.0015884117456153036
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_picture_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.163985729217529,
+                1.2332220077514649,
+                7.442866802215576
+            ],
+            "rotation": [
+                0.7072662115097046,
+                -0.0001308915816480294,
+                0.7069472074508667,
+                0.0001607074518688023
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_wall_cabinet_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.137300968170166,
+                1.0767691135406495,
+                7.483377933502197
+            ],
+            "rotation": [
+                0.7070755362510681,
+                -0.00018826674204319715,
+                0.707137942314148,
+                0.00021354653290472925
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_indoor_plant_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.04775857925415,
+                1.0723167657852173,
+                6.578283786773682
+            ],
+            "rotation": [
+                0.9999987483024597,
+                0.000011154249477840495,
+                -0.0015821605920791627,
+                -0.0000060548995861609
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_camera_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                0.46587395668029787,
+                1.759578824043274,
+                -0.5884037613868713
+            ],
+            "rotation": [
+                0.7027458548545837,
+                -0.015326331369578839,
+                -0.7110980749130249,
+                0.015904223546385766
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_monitor",
+            "motion_type": "STATIC",
+            "translation": [
+                0.4372386038303375,
+                1.5108274221420289,
+                -0.5421959757804871
+            ],
+            "rotation": [
+                0.008410751819610596,
+                4.656612873077393e-10,
+                0.999964714050293,
+                -8.940696716308594e-8
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_monitor_stand",
+            "motion_type": "STATIC",
+            "translation": [
+                0.442238450050354,
+                1.4209401607513428,
+                -0.6085606217384338
+            ],
+            "rotation": [
+                -4.371138828673793e-8,
+                -1.7763568394002506e-15,
+                1.0,
+                -8.940696716308594e-8
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_setupbox",
+            "motion_type": "STATIC",
+            "translation": [
+                0.442618727684021,
+                1.0466928482055665,
+                -0.5581823587417603
+            ],
+            "rotation": [
+                0.5661246180534363,
+                0.8243197798728943,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_bin_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -2.121365785598755,
+                0.3356514573097229,
+                -0.47717520594596865
+            ],
+            "rotation": [
+                0.7071065902709961,
+                -0.00004233940489939414,
+                0.7071069478988648,
+                0.00005088910984341055
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_picture_01",
+            "motion_type": "STATIC",
+            "translation": [
+                -0.3643217980861664,
+                1.3812999725341797,
+                -3.0062522888183595
+            ],
+            "rotation": [
+                0.7071068286895752,
+                2.9802322387695315e-8,
+                0.7071068286895752,
+                -5.960464477539063e-8
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_umbrella",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                -0.5643389821052551,
+                0.5258894562721252,
+                -4.530672550201416
+            ],
+            "rotation": [
+                0.15140773355960847,
+                0.9840806722640991,
+                -0.09300901740789414,
+                0.003215010976418853
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_chair_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.4899264574050904,
+                0.671018123626709,
+                1.7122855186462403
+            ],
+            "rotation": [
+                0.0006149569526314735,
+                9.67015353126044e-7,
+                0.9999998211860657,
+                0.0000018227799500891707
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_chair_05",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                0.8417201638221741,
+                0.6710178256034851,
+                1.674767255783081
+            ],
+            "rotation": [
+                -0.030169839039444925,
+                0.000002406139628874371,
+                0.9995447993278503,
+                0.0000042334154386480808
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_table_02",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.1759852170944214,
+                0.5924222469329834,
+                2.1747143268585207
+            ],
+            "rotation": [
+                -0.0006621320499107242,
+                -2.3655576342207497e-7,
+                0.9999997615814209,
+                -3.184456431881699e-7
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_chair_04",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                3.5550737380981447,
+                0.4836030900478363,
+                2.112661838531494
+            ],
+            "rotation": [
+                0.7070612907409668,
+                7.983226169017144e-7,
+                -0.707152247428894,
+                -2.5172627715619458e-7
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_chair_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                4.008389949798584,
+                0.35784846544265749,
+                5.930791854858398
+            ],
+            "rotation": [
+                0.7079735398292542,
+                -0.000014980816558818333,
+                0.7062389850616455,
+                0.00005033044362789951
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_remote-control_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                2.6162238121032717,
+                0.6320618987083435,
+                7.596644401550293
+            ],
+            "rotation": [
+                0.059642259031534198,
+                -0.00001097122276405571,
+                0.9982197880744934,
+                -0.00009459666034672409
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_shoebox_01",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                1.8310041427612305,
+                0.7194082736968994,
+                7.750238418579102
+            ],
+            "rotation": [
+                0.9999998807907105,
+                0.00048828122089616954,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "template_name": "objects/frl_apartment_tvstand",
+            "motion_type": "DYNAMIC",
+            "translation": [
+                2.401475191116333,
+                0.32150599360466006,
+                7.711898326873779
+            ],
+            "rotation": [
+                0.9999998211860657,
+                0.0005980199202895165,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "articulated_object_instances": [
+        
+        {
+            "template_name": "fridge",
+            "translation_origin": "COM",
+            "fixed_base": true,
+            "translation": [
+                -2.1782121658325197,
+                0.9755649566650391,
+                3.2299728393554689
+            ],
+            "rotation": [
+                1,0,0,0
+            ],
+            "motion_type": "DYNAMIC"
+        },
+        {
+            "template_name": "kitchen_counter",
+            "translation_origin": "COM",
+            "fixed_base": true,
+            "translation": [
+                -2, 0.04, 1.2346
+            ],
+            "rotation": [
+                1,0,0,0
+            ],
+            "motion_type": "DYNAMIC"
+        },
+        {
+            "template_name": "kitchenCupboard_01",
+            "translation_origin": "COM",
+            "fixed_base": true,
+            "uniform_scale": 0.38,
+            "translation": [
+                -2.3, 1.54, 1.2346
+            ],
+            "rotation": [
+                -0.707,0.707,0,0
+            ],
+            "motion_type": "DYNAMIC"
+        },
+        {
+            "template_name": "chestOfDrawers_01",
+            "translation_origin": "COM",
+            "fixed_base": true,
+            "uniform_scale": 0.4,
+            "translation": [
+                -2.318626880645752,
+                0,
+                -1.3263527154922486
+            ],
+            "rotation": [
+                -0.707,0.707,0,0
+            ],
+            "motion_type": "DYNAMIC"
+        },
+        {
+            "template_name": "cabinet",
+            "translation_origin": "COM",
+            "fixed_base": true,
+            "translation": [
+                0.4406132400035858,
+                0.04022252857685089,
+                -0.3957761228084564
+            ],
+            "rotation": [
+                -1,
+                0,
+                0,
+                0
+            ],
+            "motion_type": "DYNAMIC"
+        },
+        {
+            "template_name": "door2",
+            "translation_origin": "COM",
+            "fixed_base": true,
+            "translation": [
+                -0.35,
+                2.40,
+                -2.65
+            ],
+            "rotation": [
+                1,0,0,0
+            ],
+            "motion_type": "DYNAMIC"
+        }
+    ],
+    "navmesh_instance": "empty_stage_navmesh"
+}

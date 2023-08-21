@@ -1,0 +1,196 @@
+good_actions: # Comments are original action names
+  - do nothing # noop
+  - move left # move_left
+  - move right # move_right
+  - move up # move_up
+  - move down # move_down
+  - eat plant # do_plant
+  - attack zombie # do_zombie
+  - attack skeleton # do_skeleton
+  - attack cow # do_cow
+  - eat cow 
+  - chop tree # do_tree
+  # - chop bush # do_bush
+  - mine stone # do_stone
+  - mine coal # do_coal
+  - mine iron # do_iron 
+  - mine diamond # do_diamond
+  - drink water # do_water
+  - chop grass # do_grass
+  - sleep # sleep
+  - place stone # place_stone
+  - place crafting table # place_table
+  - place furnace # place_furnace
+  - place plant # place_plant
+  - make wood pickaxe # make_wood_pickaxe
+  - make stone pickaxe # make_stone_pickaxe
+  - make iron pickaxe # make_iron_pickaxe
+  - make wood sword # make_wood_sword
+  - make stone sword # make_stone_sword
+  - make iron sword # make_iron_sword
+  - make crafting table
+
+decomposed_actions:
+  verbs: 
+    - do nothing # no noun
+    - move left # no noun
+    - move right # no noun
+    - move up # no noun
+    - move down # no noun
+    - sleep # no noun 
+    # - mine stone # no noun 
+    # - mine coal # no noun 
+    # - mine iron # no noun 
+    # - mine diamond  # no noun 
+    # - place stone # no noun
+    # - make stone pickaxe # no noun
+    # - make stone sword # no noun
+    # - place furnace # no noun
+    # - make iron pickaxe # no noun
+    # - make iron sword # no noun
+    - mine # mine stone, mine coal, mine iron, mine diamond
+    - eat # eat plant, eat cow
+    - attack # attack zombie, attack skeleton, attack cow
+    - chop # chop tree, chop bush, chop grass
+    # - mine # mine stone, mine coal, mine iron, mine diamond
+    - drink # drink water
+    - place # place stone, place table, place furnace, place plant
+    - make # make wood pickaxe, make stone pickaxe, make iron pickaxe, make wood sword, make stone sword, make iron sword, make table
+  nouns: 
+    - zombie
+    - skeleton
+    - cow
+    - tree
+    # - bush
+    - stone
+    - coal
+    - iron
+    - diamond
+    - water
+    - grass
+    - crafting table
+    - furnace
+    - plant
+    - wood pickaxe
+    - stone pickaxe
+    - iron pickaxe
+    - wood sword
+    - stone sword
+    - iron sword
+
+actions: # Comments are original action names
+  - do nothing # noop
+  - move left # move_left
+  - move right # move_right
+  - move up # move_up
+  - move down # move_down
+  - eat plant # do_plant
+  - attack zombie # do_zombie
+  - attack skeleton # do_skeleton
+  - attack cow # do_cow
+  - chop tree # do_tree
+  # - chop bush # do_bush
+  - mine stone # do_stone
+  - mine coal # do_coal
+  - mine iron # do_iron 
+  - mine diamond # do_diamond
+  - drink water # do_water
+  - chop grass # do_grass
+  - sleep # sleep
+  - place stone # place_stone
+  - place crafting table # place_table
+  - place furnace # place_furnace
+  - place plant # place_plant
+  - make wood pickaxe # make_wood_pickaxe
+  - make stone pickaxe # make_stone_pickaxe
+  - make iron pickaxe # make_iron_pickaxe
+  - make wood sword # make_wood_sword
+  - make stone sword # make_stone_sword
+  - make iron sword # make_iron_sword
+
+materials:
+  - water
+  - grass
+  - stone
+  - path
+  - sand
+  - tree
+  - lava
+  - coal
+  - iron
+  - diamond
+  - table
+  - furnace
+  # - bush
+
+walkable:
+  - grass
+  - path
+  - sand
+
+items:
+  health: {max: 9, initial: 9}
+  food: {max: 9, initial: 9}
+  drink: {max: 9, initial: 9}
+  energy: {max: 9, initial: 9}
+  sapling: {max: 9, initial: 0}
+  wood: {max: 9, initial: 0}
+  stone: {max: 9, initial: 0}
+  coal: {max: 9, initial: 0}
+  iron: {max: 9, initial: 0}
+  diamond: {max: 9, initial: 0}
+  wood_pickaxe: {max: 9, initial: 0}
+  stone_pickaxe: {max: 9, initial: 0}
+  iron_pickaxe: {max: 9, initial: 0}
+  wood_sword: {max: 9, initial: 0}
+  stone_sword: {max: 9, initial: 0}
+  iron_sword: {max: 9, initial: 0}
+
+collect:
+  tree: {require: {}, receive: {wood: 1}, leaves: grass}
+  # bush: {require: {}, receive: {}, leaves: grass}
+  stone: {require: {wood_pickaxe: 1}, receive: {stone: 1}, leaves: path}
+  coal: {require: {wood_pickaxe: 1}, receive: {coal: 1}, leaves: path}
+  iron: {require: {stone_pickaxe: 1}, receive: {iron: 1}, leaves: path}
+  diamond: {require: {iron_pickaxe: 1}, receive: {diamond: 1}, leaves: path}
+  water: {require: {}, receive: {drink: 1}, leaves: water}
+  grass: {require: {}, receive: {sapling: 1}, probability: .1, leaves: grass}
+
+place:
+  stone: {uses: {stone: 1}, where: [grass, sand, path, water, lava], type: material}
+  table: {uses: {wood: 1}, where: [grass, sand, path], type: material}
+  furnace: {uses: {stone: 4}, where: [grass, sand, path], type: material}
+  plant: {uses: {sapling: 1}, where: [grass], type: object}
+
+make:
+  wood_pickaxe: {uses: {wood: 1}, nearby: [table], gives: 1}
+  stone_pickaxe: {uses: {wood: 1, stone: 1}, nearby: [table], gives: 1}
+  iron_pickaxe: {uses: {wood: 1, coal: 1, iron: 1}, nearby: [table, furnace], gives: 1}
+  wood_sword: {uses: {wood: 1}, nearby: [table], gives: 1}
+  stone_sword: {uses: {wood: 1, stone: 1}, nearby: [table], gives: 1}
+  iron_sword: {uses: {wood: 1, coal: 1, iron: 1}, nearby: [table, furnace], gives: 1}
+
+achievements:
+  - collect_coal
+  - collect_diamond
+  - collect_drink
+  - collect_iron
+  - collect_sapling
+  - collect_stone
+  - collect_wood
+  # - chop_bush
+  - defeat_skeleton
+  - defeat_zombie
+  - eat_cow
+  - eat_plant
+  - make_iron_pickaxe
+  - make_iron_sword
+  - make_stone_pickaxe
+  - make_stone_sword
+  - make_wood_pickaxe
+  - make_wood_sword
+  - place_furnace
+  - place_plant
+  - place_stone
+  - place_table
+  - wake_up

@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../objects/frl_apartment_remote-control_01.glb",
+  "collision_asset": "../../objects/convex/frl_apartment_remote-control_01_cv_decomp.glb",
+  "mass": 0.1,
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 68
+}

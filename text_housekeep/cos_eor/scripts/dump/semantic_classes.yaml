@@ -1,0 +1,325 @@
+semantic_class_id_map:
+- !!python/tuple
+  - 1
+  - adjustable wrench
+- !!python/tuple
+  - 2
+  - apple
+- !!python/tuple
+  - 3
+  - banana
+- !!python/tuple
+  - 4
+  - baseball
+- !!python/tuple
+  - 5
+  - basket
+- !!python/tuple
+  - 6
+  - bathtub
+- !!python/tuple
+  - 7
+  - bed
+- !!python/tuple
+  - 8
+  - bleach cleanser
+- !!python/tuple
+  - 9
+  - bottom cabinet
+- !!python/tuple
+  - 10
+  - bottom cabinet no top
+- !!python/tuple
+  - 11
+  - bowl
+- !!python/tuple
+  - 12
+  - carpet
+- !!python/tuple
+  - 13
+  - chain
+- !!python/tuple
+  - 14
+  - chair
+- !!python/tuple
+  - 15
+  - chest
+- !!python/tuple
+  - 16
+  - coffee machine
+- !!python/tuple
+  - 17
+  - coffee table
+- !!python/tuple
+  - 18
+  - colored wood blocks
+- !!python/tuple
+  - 19
+  - console table
+- !!python/tuple
+  - 20
+  - cooktop
+- !!python/tuple
+  - 21
+  - counter
+- !!python/tuple
+  - 22
+  - cracker box
+- !!python/tuple
+  - 23
+  - cups
+- !!python/tuple
+  - 24
+  - cushion
+- !!python/tuple
+  - 25
+  - dishwasher
+- !!python/tuple
+  - 26
+  - donut
+- !!python/tuple
+  - 27
+  - door
+- !!python/tuple
+  - 28
+  - dryer
+- !!python/tuple
+  - 29
+  - extra large clamp
+- !!python/tuple
+  - 30
+  - fence
+- !!python/tuple
+  - 31
+  - flat screwdriver
+- !!python/tuple
+  - 32
+  - floor lamp
+- !!python/tuple
+  - 33
+  - foam brick
+- !!python/tuple
+  - 34
+  - fork
+- !!python/tuple
+  - 35
+  - fridge
+- !!python/tuple
+  - 36
+  - gelatin box
+- !!python/tuple
+  - 37
+  - golf ball
+- !!python/tuple
+  - 38
+  - grandfather clock
+- !!python/tuple
+  - 39
+  - guitar
+- !!python/tuple
+  - 40
+  - hammer
+- !!python/tuple
+  - 41
+  - heater
+- !!python/tuple
+  - 42
+  - heavy master chef can
+- !!python/tuple
+  - 43
+  - knife
+- !!python/tuple
+  - 44
+  - laptop
+- !!python/tuple
+  - 45
+  - large clamp
+- !!python/tuple
+  - 46
+  - large marker
+- !!python/tuple
+  - 47
+  - lego duplo
+- !!python/tuple
+  - 48
+  - lemon
+- !!python/tuple
+  - 49
+  - loudspeaker
+- !!python/tuple
+  - 50
+  - master chef can
+- !!python/tuple
+  - 51
+  - medium clamp
+- !!python/tuple
+  - 52
+  - microwave
+- !!python/tuple
+  - 53
+  - mini soccer ball
+- !!python/tuple
+  - 54
+  - mirror
+- !!python/tuple
+  - 55
+  - monitor
+- !!python/tuple
+  - 56
+  - mug
+- !!python/tuple
+  - 57
+  - mustard bottle
+- !!python/tuple
+  - 58
+  - nine hole peg test
+- !!python/tuple
+  - 59
+  - office chair
+- !!python/tuple
+  - 60
+  - orange
+- !!python/tuple
+  - 61
+  - oven
+- !!python/tuple
+  - 62
+  - padlock
+- !!python/tuple
+  - 63
+  - peach
+- !!python/tuple
+  - 64
+  - pear
+- !!python/tuple
+  - 65
+  - phillips screwdriver
+- !!python/tuple
+  - 66
+  - piano
+- !!python/tuple
+  - 67
+  - picture
+- !!python/tuple
+  - 68
+  - pitcher base
+- !!python/tuple
+  - 69
+  - plant
+- !!python/tuple
+  - 70
+  - plate
+- !!python/tuple
+  - 71
+  - plum
+- !!python/tuple
+  - 72
+  - potted meat can
+- !!python/tuple
+  - 73
+  - power drill
+- !!python/tuple
+  - 74
+  - pudding box
+- !!python/tuple
+  - 75
+  - racquetball
+- !!python/tuple
+  - 76
+  - range hood
+- !!python/tuple
+  - 77
+  - rubiks cube
+- !!python/tuple
+  - 78
+  - scissors
+- !!python/tuple
+  - 79
+  - shelf
+- !!python/tuple
+  - 80
+  - shower
+- !!python/tuple
+  - 81
+  - sink
+- !!python/tuple
+  - 82
+  - skillet lid
+- !!python/tuple
+  - 83
+  - sofa
+- !!python/tuple
+  - 84
+  - sofa chair
+- !!python/tuple
+  - 85
+  - softball
+- !!python/tuple
+  - 86
+  - spatula
+- !!python/tuple
+  - 87
+  - speaker system
+- !!python/tuple
+  - 88
+  - sponge
+- !!python/tuple
+  - 89
+  - spoon
+- !!python/tuple
+  - 90
+  - standing tv
+- !!python/tuple
+  - 91
+  - stool
+- !!python/tuple
+  - 92
+  - stove
+- !!python/tuple
+  - 93
+  - strawberry
+- !!python/tuple
+  - 94
+  - sugar box
+- !!python/tuple
+  - 95
+  - table
+- !!python/tuple
+  - 96
+  - table lamp
+- !!python/tuple
+  - 97
+  - tennis ball
+- !!python/tuple
+  - 98
+  - toilet
+- !!python/tuple
+  - 99
+  - tomato soup can
+- !!python/tuple
+  - 100
+  - top cabinet
+- !!python/tuple
+  - 101
+  - towel rack
+- !!python/tuple
+  - 102
+  - toy airplane
+- !!python/tuple
+  - 103
+  - trash can
+- !!python/tuple
+  - 104
+  - treadmill
+- !!python/tuple
+  - 105
+  - tuna fish can
+- !!python/tuple
+  - 106
+  - wall mounted tv
+- !!python/tuple
+  - 107
+  - washer
+- !!python/tuple
+  - 108
+  - window

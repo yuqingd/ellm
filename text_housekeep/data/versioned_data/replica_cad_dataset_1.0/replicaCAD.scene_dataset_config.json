@@ -1,0 +1,54 @@
+{
+  "stages": {
+    "paths": {
+      ".json": [
+        "configs/stages"
+      ]
+    }
+  },
+  "objects": {
+    "paths": {
+      ".json": [
+        "configs/objects"
+      ]
+    }
+  },
+  "articulated_objects":{
+    "paths": {
+      ".urdf" : ["urdf/*/"]
+    }
+  },
+  "light_setups": {
+    "default_attributes": {
+      "positive_intensity_scale": 2.5,
+      "negative_intensity_scale": 0.1
+    },
+    "paths": {
+      ".json": [
+        "configs/lighting"
+      ]
+    }
+  },
+  "scene_instances": {
+    "default_attributes": {
+      "semantic_scene_instance": "replicaCAD_ssd_map"
+    },
+    "paths": {
+      ".json": [
+        "configs/scenes"
+      ]
+    }
+  },
+  "navmesh_instances": {
+    "empty_stage_navmesh": "navmeshes/empty_stage.navmesh",
+    "apt_0_navmesh": "navmeshes/apt_0_static_furniture.navmesh",
+    "apt_1_navmesh": "navmeshes/apt_1_static_furniture.navmesh",
+    "apt_2_navmesh": "navmeshes/apt_2_static_furniture.navmesh",
+    "apt_3_navmesh": "navmeshes/apt_3_static_furniture.navmesh",
+    "apt_4_navmesh": "navmeshes/apt_4_static_furniture.navmesh",
+    "apt_5_navmesh": "navmeshes/apt_5_static_furniture.navmesh"
+  },
+  "semantic_scene_descriptor_instances": {
+    "replicaCAD_ssd_map": "configs/ssd/replicaCAD_semantic_lexicon.json"
+  }
+}

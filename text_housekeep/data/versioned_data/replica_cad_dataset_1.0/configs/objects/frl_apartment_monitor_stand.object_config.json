@@ -1,0 +1,11 @@
+{
+  "render_asset": "../../objects/frl_apartment_monitor_stand.glb",
+  "collision_asset": "../../objects/convex/frl_apartment_monitor_stand_cv_decomp.glb",
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 52
+}

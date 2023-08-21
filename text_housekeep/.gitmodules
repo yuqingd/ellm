@@ -1,0 +1,8 @@
+[submodule "habitat-lab"]
+	path = habitat-lab
+	url = https://github.com/yashkant/habitat-lab-fork.git
+	branch = cos-eor
+[submodule "astar_pycpp"]
+	path = cos_eor/explore/astar_pycpp
+	url = https://github.com/srama2512/astar_pycpp.git
+	branch = exploration_study

@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../objects/frl_apartment_kitchen_utensil_09.glb",
+  "collision_asset": "../../objects/convex/frl_apartment_kitchen_utensil_09_cv_decomp.glb",
+  "mass": 0.6,
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 46
+}

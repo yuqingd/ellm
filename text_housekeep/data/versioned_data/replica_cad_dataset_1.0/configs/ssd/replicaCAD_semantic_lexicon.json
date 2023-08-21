@@ -1,0 +1,408 @@
+{
+  "classes": [
+    {
+      "name": "backpack",
+      "id": 1
+    },
+    {
+      "name": "base_cabinet",
+      "id": 2
+    },
+    {
+      "name": "basket",
+      "id": 3
+    },
+    {
+      "name": "bathtub",
+      "id": 4
+    },
+    {
+      "name": "beam",
+      "id": 5
+    },
+    {
+      "name": "beanbag",
+      "id": 6
+    },
+    {
+      "name": "bed",
+      "id": 7
+    },
+    {
+      "name": "bench",
+      "id": 8
+    },
+    {
+      "name": "bike",
+      "id": 9
+    },
+    {
+      "name": "bin",
+      "id": 10
+    },
+    {
+      "name": "blanket",
+      "id": 11
+    },
+    {
+      "name": "blinds",
+      "id": 12
+    },
+    {
+      "name": "book",
+      "id": 13
+    },
+    {
+      "name": "bottle",
+      "id": 14
+    },
+    {
+      "name": "box",
+      "id": 15
+    },
+    {
+      "name": "bowl",
+      "id": 16
+    },
+    {
+      "name": "camera",
+      "id": 17
+    },
+    {
+      "name": "cabinet",
+      "id": 18
+    },
+    {
+      "name": "candle",
+      "id": 19
+    },
+    {
+      "name": "chair",
+      "id": 20
+    },
+    {
+      "name": "chopping_board",
+      "id": 21
+    },
+    {
+      "name": "clock",
+      "id": 22
+    },
+    {
+      "name": "cloth",
+      "id": 23
+    },
+    {
+      "name": "clothing",
+      "id": 24
+    },
+    {
+      "name": "coaster",
+      "id": 25
+    },
+    {
+      "name": "comforter",
+      "id": 26
+    },
+    {
+      "name": "computer_keyboard",
+      "id": 27
+    },
+    {
+      "name": "cup",
+      "id": 28
+    },
+    {
+      "name": "cushion",
+      "id": 29
+    },
+    {
+      "name": "curtain",
+      "id": 30
+    },
+    {
+      "name": "ceiling",
+      "id": 31
+    },
+    {
+      "name": "cooktop",
+      "id": 32
+    },
+    {
+      "name": "countertop",
+      "id": 33
+    },
+    {
+      "name": "desk",
+      "id": 34
+    },
+    {
+      "name": "desk_organizer",
+      "id": 35
+    },
+    {
+      "name": "desktop_computer",
+      "id": 36
+    },
+    {
+      "name": "door",
+      "id": 37
+    },
+    {
+      "name": "exercise_ball",
+      "id": 38
+    },
+    {
+      "name": "faucet",
+      "id": 39
+    },
+    {
+      "name": "floor",
+      "id": 40
+    },
+    {
+      "name": "handbag",
+      "id": 41
+    },
+    {
+      "name": "hair_dryer",
+      "id": 42
+    },
+    {
+      "name": "handrail",
+      "id": 43
+    },
+    {
+      "name": "indoor_plant",
+      "id": 44
+    },
+    {
+      "name": "knife_block",
+      "id": 45
+    },
+    {
+      "name": "kitchen_utensil",
+      "id": 46
+    },
+    {
+      "name": "lamp",
+      "id": 47
+    },
+    {
+      "name": "laptop",
+      "id": 48
+    },
+    {
+      "name": "major_appliance",
+      "id": 49
+    },
+    {
+      "name": "mat",
+      "id": 50
+    },
+    {
+      "name": "microwave",
+      "id": 51
+    },
+    {
+      "name": "monitor",
+      "id": 52
+    },
+    {
+      "name": "mouse",
+      "id": 53
+    },
+    {
+      "name": "nightstand",
+      "id": 54
+    },
+    {
+      "name": "pan",
+      "id": 55
+    },
+    {
+      "name": "panel",
+      "id": 56
+    },
+    {
+      "name": "paper_towel",
+      "id": 57
+    },
+    {
+      "name": "phone",
+      "id": 58
+    },
+    {
+      "name": "picture",
+      "id": 59
+    },
+    {
+      "name": "pillar",
+      "id": 60
+    },
+    {
+      "name": "pillow",
+      "id": 61
+    },
+    {
+      "name": "pipe",
+      "id": 62
+    },
+    {
+      "name": "plant_stand",
+      "id": 63
+    },
+    {
+      "name": "plate",
+      "id": 64
+    },
+    {
+      "name": "pot",
+      "id": 65
+    },
+    {
+      "name": "rack",
+      "id": 66
+    },
+    {
+      "name": "refrigerator",
+      "id": 67
+    },
+    {
+      "name": "remote_control",
+      "id": 68
+    },
+    {
+      "name": "scarf",
+      "id": 69
+    },
+    {
+      "name": "sculpture",
+      "id": 70
+    },
+    {
+      "name": "shelf",
+      "id": 71
+    },
+    {
+      "name": "shoe",
+      "id": 72
+    },
+    {
+      "name": "shower_stall",
+      "id": 73
+    },
+    {
+      "name": "sink",
+      "id": 74
+    },
+    {
+      "name": "small_appliance",
+      "id": 75
+    },
+    {
+      "name": "sofa",
+      "id": 76
+    },
+    {
+      "name": "stair",
+      "id": 77
+    },
+    {
+      "name": "stool",
+      "id": 78
+    },
+    {
+      "name": "switch",
+      "id": 79
+    },
+    {
+      "name": "table",
+      "id": 80
+    },
+    {
+      "name": "table_runner",
+      "id": 81
+    },
+    {
+      "name": "tablet",
+      "id": 82
+    },
+    {
+      "name": "tissue_paper",
+      "id": 83
+    },
+    {
+      "name": "toilet",
+      "id": 84
+    },
+    {
+      "name": "toothbrush",
+      "id": 85
+    },
+    {
+      "name": "towel",
+      "id": 86
+    },
+    {
+      "name": "tv_screen",
+      "id": 87
+    },
+    {
+      "name": "tv_stand",
+      "id": 88
+    },
+    {
+      "name": "umbrella",
+      "id": 89
+    },
+    {
+      "name": "utensil_holder",
+      "id": 90
+    },
+    {
+      "name": "vase",
+      "id": 91
+    },
+    {
+      "name": "vent",
+      "id": 92
+    },
+    {
+      "name": "wall",
+      "id": 93
+    },
+    {
+      "name": "wall_cabinet",
+      "id": 94
+    },
+    {
+      "name": "wall_plug",
+      "id": 95
+    },
+    {
+      "name": "wardrobe",
+      "id": 96
+    },
+    {
+      "name": "window",
+      "id": 97
+    },
+    {
+      "name": "rug",
+      "id": 98
+    },
+    {
+      "name": "logo",
+      "id": 99
+    },
+    {
+      "name": "bag",
+      "id": 100
+    },
+    {
+      "name": "set_of_clothing",
+      "id": 101
+    }
+  ]
+}

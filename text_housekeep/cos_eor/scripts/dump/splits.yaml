@@ -1,0 +1,80 @@
+objects:
+  test:
+  - racquetball
+  - plant
+  - potted meat can
+  - medium clamp
+  - plum
+  - cups
+  - heavy master chef can
+  - tennis ball
+  - sugar box
+  - apple
+  - lego duplo
+  - extra large clamp
+  trainval:
+  - racquetball
+  - plant
+  - potted meat can
+  - medium clamp
+  - plum
+  - cups
+  - heavy master chef can
+  - tennis ball
+  - sugar box
+  - apple
+  - lego duplo
+  - extra large clamp
+  - tuna fish can
+  - pear
+  - chain
+  - bleach cleanser
+  - master chef can
+  - banana
+  - hammer
+  - pitcher base
+  - scissors
+  - skillet lid
+  - spoon
+  - large clamp
+  - adjustable wrench
+  - softball
+  - padlock
+  - mini soccer ball
+  - strawberry
+  - fork
+  - pudding box
+  - toy airplane
+  - mustard bottle
+  - lemon
+  - tomato soup can
+  - knife
+  - golf ball
+  - gelatin box
+  - bowl
+  - phillips screwdriver
+  - large marker
+  - power drill
+  - foam brick
+  - guitar
+  - flat screwdriver
+  - baseball
+  - colored wood blocks
+scenes:
+  test:
+  - data/scene_datasets/igibson/scenes/Benevolence_1_int.glb
+  - data/scene_datasets/igibson/scenes/Ihlen_0_int.glb
+  - data/scene_datasets/igibson/scenes/Beechwood_1_int.glb
+  - data/scene_datasets/igibson/scenes/Merom_0_int.glb
+  train:
+  - data/scene_datasets/igibson/scenes/Benevolence_2_int.glb
+  - data/scene_datasets/igibson/scenes/Wainscott_0_int.glb
+  - data/scene_datasets/igibson/scenes/Beechwood_0_int.glb
+  - data/scene_datasets/igibson/scenes/Rs_int.glb
+  - data/scene_datasets/igibson/scenes/Pomaria_1_int.glb
+  - data/scene_datasets/igibson/scenes/Pomaria_0_int.glb
+  - data/scene_datasets/igibson/scenes/Pomaria_2_int.glb
+  - data/scene_datasets/igibson/scenes/Wainscott_1_int.glb
+  val:
+  - data/scene_datasets/igibson/scenes/Ihlen_1_int.glb
+  - data/scene_datasets/igibson/scenes/Merom_1_int.glb

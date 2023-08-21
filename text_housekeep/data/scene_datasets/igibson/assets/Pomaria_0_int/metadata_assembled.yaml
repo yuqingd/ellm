@@ -1,0 +1,788 @@
+default_mapping:
+- !!python/tuple
+  - guitar_9_0.urdf
+  - bed_31_2.urdf
+urdfs:
+  bathtub_35_0.urdf:
+    category: bathtub
+    obj_type: 1
+    pickable: false
+    pos:
+    - -0.29419914721038337
+    - 0.3937967935081319
+    - -1.875345356988981
+    room: bathroom_0
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: almost all are deep
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/bathtub_35_0.urdf
+  bed_29_3.urdf:
+    category: bed
+    obj_type: 1
+    pickable: false
+    pos:
+    - -3.475226702021918
+    - 0.4522359526336107
+    - 1.933852551884871
+    room: bedroom_1
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: some are weird double decker beds
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/bed_29_3.urdf
+  bed_31_2.urdf:
+    category: bed
+    obj_type: 1
+    pickable: false
+    pos:
+    - -1.369457645126999
+    - 0.5357102014490407
+    - 1.4715448432994123
+    room: bedroom_0
+    rot:
+    - -0.5021442174911499
+    - 0.4978465437889099
+    - 0.4978465437889099
+    - 0.5021442174911499
+    sidenote: some are weird double decker beds
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/bed_31_2.urdf
+  bottom_cabinet_28_0.urdf:
+    category: bottom_cabinet
+    obj_type: 1
+    pickable: false
+    pos:
+    - -5.147956912414531
+    - 0.35581394447648007
+    - 1.6076013222529997
+    room: home_office_0
+    rot:
+    - -0.4995826482772827
+    - -0.5004170536994934
+    - -0.5004170536994934
+    - 0.4995826482772827
+    sidenote: all have either doors/drawers
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/bottom_cabinet_28_0.urdf
+  bottom_cabinet_no_top_21_0.urdf:
+    category: bottom_cabinet_no_top
+    obj_type: 1
+    pickable: false
+    pos:
+    - -7.596892790661113
+    - 0.43097633187878065
+    - -0.7168828436497697
+    room: home_office_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: does not have a top, so cannot be used to place objects. remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/bottom_cabinet_no_top_21_0.urdf
+  bottom_cabinet_no_top_22_0.urdf:
+    category: bottom_cabinet_no_top
+    obj_type: 1
+    pickable: false
+    pos:
+    - -6.757796040584742
+    - 0.43097633187878065
+    - -0.7168828436497697
+    room: home_office_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: does not have a top, so cannot be used to place objects. remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/bottom_cabinet_no_top_22_0.urdf
+  carpet_25_0.urdf:
+    category: carpet
+    obj_type: 1
+    pickable: false
+    pos:
+    - -5.980424666558554
+    - 0.0009496002740183578
+    - 2.1949972248257366
+    room: home_office_0
+    rot:
+    - -0.5000000596046448
+    - -0.49999991059303284
+    - -0.49999991059303284
+    - 0.5000000596046448
+    sidenote: almost like a mat on floor, can be cluttered.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/carpet_25_0.urdf
+  carpet_30_0.urdf:
+    category: carpet
+    obj_type: 1
+    pickable: false
+    pos:
+    - -0.745602805532429
+    - 0.0004748001370091789
+    - 0.20947439451705602
+    room: bedroom_0
+    rot:
+    - 0.00029792304849252105
+    - 0.7071067094802856
+    - 0.7071067094802856
+    - -0.00029792304849252105
+    sidenote: almost like a mat on floor, can be cluttered.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/carpet_30_0.urdf
+  carpet_36_0.urdf:
+    category: carpet
+    obj_type: 1
+    pickable: false
+    pos:
+    - -0.5150031305531114
+    - 0.0004748001370091789
+    - -3.0094196223712157
+    room: bathroom_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: almost like a mat on floor, can be cluttered.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/carpet_36_0.urdf
+  chair_18_0.urdf:
+    category: chair
+    obj_type: 1
+    pickable: false
+    pos:
+    - -12.068373828809689
+    - 0.4554404759689413
+    - -2.410519540755713
+    room: television_room_0
+    rot:
+    - -0.5825446844100952
+    - 0.40080127120018005
+    - 0.40080127120018005
+    - 0.5825446844100952
+    sidenote: did not make pickable, because doesnt make sense to rearrange it on
+      any other receptacle
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/chair_18_0.urdf
+  coffee_table_1_0.urdf:
+    category: coffee_table
+    obj_type: 2
+    pickable: false
+    pos:
+    - -10.92909829333411
+    - 0.27235787152119867
+    - -0.5283137843226116
+    room: television_room_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: ''
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/coffee_table_1_0.urdf
+  counter_23_0.urdf:
+    category: counter
+    obj_type: 1
+    pickable: false
+    pos:
+    - -7.150004733269828
+    - 0.8603639285684667
+    - -0.7293402351813185
+    room: home_office_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: single type only
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/counter_23_0.urdf
+  door_41_0.urdf:
+    category: door
+    obj_type: 1
+    pickable: false
+    pos:
+    - -11.357828733956246
+    - 1.0983113947323349
+    - 3.0080424535073105
+    room: null
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/door_41_0.urdf
+  door_42_0.urdf:
+    category: door
+    obj_type: 1
+    pickable: false
+    pos:
+    - -5.998487437167041
+    - 0.9984649043021224
+    - 3.008042453279129
+    room: null
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/door_42_0.urdf
+  guitar_8_0.urdf:
+    category: guitar
+    obj_type: 2
+    pickable: true
+    pos:
+    - -4.564420691380205
+    - 0.6527946294435418
+    - 2.676462261490275
+    room: bedroom_1
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: ''
+    type: object
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/guitar_8_0.urdf
+  guitar_9_0.urdf:
+    category: guitar
+    obj_type: 2
+    pickable: true
+    pos:
+    - -2.337802476911679
+    - 0.6527946294435418
+    - 2.6345295076915334
+    room: bedroom_1
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: ''
+    type: object
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/guitar_9_0.urdf
+  monitor_4_0.urdf:
+    category: monitor
+    obj_type: 2
+    pickable: false
+    pos:
+    - -8.331661277994971
+    - 0.9105537174346445
+    - 0.9661790510410876
+    room: home_office_0
+    rot:
+    - -0.5035083889961243
+    - 0.4964667558670044
+    - 0.4964667558670044
+    - 0.5035083889961243
+    sidenote: remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/monitor_4_0.urdf
+  monitor_7_0.urdf:
+    category: monitor
+    obj_type: 2
+    pickable: false
+    pos:
+    - -4.641661277994971
+    - 0.9105537174346445
+    - -0.10382094895891236
+    room: bedroom_1
+    rot:
+    - -0.5035083889961243
+    - 0.4964667558670044
+    - 0.4964667558670044
+    - 0.5035083889961243
+    sidenote: remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/monitor_7_0.urdf
+  office_chair_5_0.urdf:
+    category: office_chair
+    obj_type: 2
+    pickable: false
+    pos:
+    - -7.752332599814968
+    - 0.3825778424309803
+    - 1.394692653967883
+    room: home_office_0
+    rot:
+    - -0.5334883332252502
+    - -0.4641014337539673
+    - -0.4641014337539673
+    - 0.5334883332252502
+    sidenote: ''
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/office_chair_5_0.urdf
+  picture_33_0.urdf:
+    category: picture
+    obj_type: 1
+    pickable: true
+    pos:
+    - -0.5303843779646442
+    - 2.199747255430422
+    - -0.5601124838827756
+    room: bedroom_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: ''
+    type: object
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/picture_33_0.urdf
+  picture_34_0.urdf:
+    category: picture
+    obj_type: 1
+    pickable: true
+    pos:
+    - 0.07961562203535584
+    - 2.199747282145547
+    - -0.5601124838827756
+    room: bedroom_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: ''
+    type: object
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/picture_34_0.urdf
+  shelf_10_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -9.564268439692256
+    - 1.3991309123625488
+    - -2.8835393927124455
+    room: television_room_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_10_0.urdf
+  shelf_11_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -1.0209308017309275
+    - 1.0838059279955115
+    - -1.8976744694064436
+    room: corridor_0
+    rot:
+    - -0.5000000596046448
+    - -0.49999991059303284
+    - -0.49999991059303284
+    - 0.5000000596046448
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_11_0.urdf
+  shelf_12_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -12.672740968482872
+    - 1.1823337396314668
+    - -2.198503049607097
+    room: television_room_0
+    rot:
+    - -0.49887773394584656
+    - 0.5011196732521057
+    - 0.5011196732521057
+    - 0.49887773394584656
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_12_0.urdf
+  shelf_13_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -8.743571375632477
+    - 1.3991309123625488
+    - 0.4794894505423033
+    room: television_room_0
+    rot:
+    - -0.5001840591430664
+    - -0.49981585144996643
+    - -0.49981585144996643
+    - 0.5001840591430664
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_13_0.urdf
+  shelf_14_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -12.620242734649024
+    - 0.43722841011329655
+    - 0.4469420807047366
+    room: television_room_0
+    rot:
+    - -0.4999297261238098
+    - 0.5000702142715454
+    - 0.5000702142715454
+    - 0.4999297261238098
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_14_0.urdf
+  shelf_15_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -9.416546927802303
+    - 0.38
+    - 2.216873648350182
+    room: television_room_0
+    rot:
+    - 0.18527141213417053
+    - 0.6824035048484802
+    - 0.6824035048484802
+    - -0.18527141213417053
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_15_0.urdf
+  shelf_16_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -10.286622105771118
+    - 1.0838059279955115
+    - 2.680332445408531
+    room: television_room_0
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_16_0.urdf
+  shelf_19_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -8.132864132778275
+    - 0.37
+    - 2.529737445538066
+    room: home_office_0
+    rot:
+    - -0.5003804564476013
+    - 0.4996192753314972
+    - 0.4996192753314972
+    - 0.5003804564476013
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_19_0.urdf
+  shelf_20_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -8.224464840955642
+    - 0.55
+    - 0.07557200547317275
+    room: home_office_0
+    rot:
+    - -0.49814480543136597
+    - 0.5018483400344849
+    - 0.5018483400344849
+    - 0.49814480543136597
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_20_0.urdf
+  shelf_24_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -7.0834962859201696
+    - 1.5287991741160183
+    - -0.8464124767801053
+    room: home_office_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_24_0.urdf
+  shelf_26_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -5.110107636641376
+    - 0.9852781163595558
+    - 0.7418309683399906
+    room: home_office_0
+    rot:
+    - -0.500873327255249
+    - -0.49912509322166443
+    - -0.49912509322166443
+    - 0.500873327255249
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_26_0.urdf
+  shelf_27_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - -5.110107636641376
+    - 0.9852781163595558
+    - 2.5018309683399904
+    room: home_office_0
+    rot:
+    - -0.500873327255249
+    - -0.49912509322166443
+    - -0.49912509322166443
+    - 0.500873327255249
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_27_0.urdf
+  shelf_32_0.urdf:
+    category: shelf
+    obj_type: 1
+    pickable: false
+    pos:
+    - 0.7968402397227987
+    - 1.28253666966567
+    - 0.4131725323391041
+    room: bedroom_0
+    rot:
+    - -0.4997749924659729
+    - -0.5002248883247375
+    - -0.5002248883247375
+    - 0.4997749924659729
+    sidenote: no doors, but likely too high to place something on top of?
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/shelf_32_0.urdf
+  sink_38_0.urdf:
+    category: sink
+    obj_type: 1
+    pickable: false
+    pos:
+    - -0.9641676269528858
+    - 0.3592555078427401
+    - -3.6737165669231944
+    room: bathroom_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: some have drawers below
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/sink_38_0.urdf
+  sofa_17_0.urdf:
+    category: sofa
+    obj_type: 1
+    pickable: false
+    pos:
+    - -10.800854896936093
+    - 0.4429486101563752
+    - -1.6982190992177377
+    room: television_room_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: ''
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/sofa_17_0.urdf
+  sofa_chair_2_0.urdf:
+    category: sofa_chair
+    obj_type: 2
+    pickable: false
+    pos:
+    - -11.48571761098179
+    - 0.41823578131773786
+    - 1.3286214402803933
+    room: television_room_0
+    rot:
+    - -0.6682661175727844
+    - 0.2311284840106964
+    - 0.2311284840106964
+    - 0.6682661175727844
+    sidenote: ''
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/sofa_chair_2_0.urdf
+  standing_tv_0_0.urdf:
+    category: standing_tv
+    obj_type: 2
+    pickable: false
+    pos:
+    - -9.448034314114937
+    - 1.1189804545534334
+    - 2.2047229846478817
+    room: television_room_0
+    rot:
+    - 0.18674835562705994
+    - 0.6820007562637329
+    - 0.6820007562637329
+    - -0.18674835562705994
+    sidenote: remove.
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/standing_tv_0_0.urdf
+  table_3_0.urdf:
+    category: table
+    obj_type: 2
+    pickable: false
+    pos:
+    - -8.113520533916141
+    - 0.4025741769865783
+    - 1.330164485782595
+    room: home_office_0
+    rot:
+    - -0.4997676610946655
+    - 0.5002322196960449
+    - 0.5002322196960449
+    - 0.4997676610946655
+    sidenote: 'some have drawers '
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/table_3_0.urdf
+  table_6_0.urdf:
+    category: table
+    obj_type: 2
+    pickable: false
+    pos:
+    - -4.549288079119734
+    - 0.45656892492561235
+    - -0.07183667096136825
+    room: bedroom_1
+    rot:
+    - -0.5015038251876831
+    - 0.49849164485931396
+    - 0.49849164485931396
+    - 0.5015038251876831
+    sidenote: 'some have drawers '
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/table_6_0.urdf
+  toilet_37_0.urdf:
+    category: toilet
+    obj_type: 1
+    pickable: false
+    pos:
+    - 0.4701094459196516
+    - 0.3969660817697394
+    - -3.646982225515668
+    room: bathroom_0
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: can be used as a receptacle w/ toilet paper
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/toilet_37_0.urdf
+  window_39_0.urdf:
+    category: window
+    obj_type: 1
+    pickable: false
+    pos:
+    - -12.914391244547273
+    - 1.4692503908797636
+    - -0.15830003269496168
+    room: null
+    rot:
+    - -0.49981921911239624
+    - 0.500180721282959
+    - 0.500180721282959
+    - 0.49981921911239624
+    sidenote: not sure, things are usually kept on window sill
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/window_39_0.urdf
+  window_43_0.urdf:
+    category: window
+    obj_type: 1
+    pickable: false
+    pos:
+    - -3.4826427456780427
+    - 1.5656687420831281
+    - 2.969145007990805
+    room: null
+    rot:
+    - -1.224745034278385e-07
+    - 0.7071067690849304
+    - 0.7071067690849304
+    - 1.224745034278385e-07
+    sidenote: not sure, things are usually kept on window sill
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/window_43_0.urdf
+  window_48_0.urdf:
+    category: window
+    obj_type: 1
+    pickable: false
+    pos:
+    - -1.4541021445843914
+    - 1.5432814942998523
+    - -3.9924382405331054
+    room: null
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: not sure, things are usually kept on window sill
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/window_48_0.urdf
+  window_49_0.urdf:
+    category: window
+    obj_type: 1
+    pickable: false
+    pos:
+    - -0.4141021445843912
+    - 1.5432814942998523
+    - -3.9924382405331054
+    room: null
+    rot:
+    - -0.7071067690849304
+    - 0.0
+    - 0.0
+    - 0.7071067690849304
+    sidenote: not sure, things are usually kept on window sill
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/window_49_0.urdf
+  window_50_0.urdf:
+    category: window
+    obj_type: 1
+    pickable: false
+    pos:
+    - 1.117682065261823
+    - 1.4692503908797636
+    - 1.8720667606462371
+    room: null
+    rot:
+    - -0.5000000596046448
+    - -0.49999991059303284
+    - -0.49999991059303284
+    - 0.5000000596046448
+    sidenote: not sure, things are usually kept on window sill
+    type: receptacle
+    urdf: /coc/testnvme/aramacha35/cos-hab2/iGibson/gibson2/data/ig_dataset/scene_instances/20210906-151326_16250005160871941754_55177/window_50_0.urdf

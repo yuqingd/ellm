@@ -1,0 +1,952 @@
+semantic_class_id_map:
+- !!python/tuple
+  - 1
+  - action_figure
+- !!python/tuple
+  - 2
+  - adjustable_wrench
+- !!python/tuple
+  - 3
+  - android_figure
+- !!python/tuple
+  - 4
+  - anti_slip_tape
+- !!python/tuple
+  - 5
+  - antidepressant
+- !!python/tuple
+  - 6
+  - apple
+- !!python/tuple
+  - 7
+  - backpack
+- !!python/tuple
+  - 8
+  - balancing_cactus
+- !!python/tuple
+  - 9
+  - banana
+- !!python/tuple
+  - 10
+  - baseball
+- !!python/tuple
+  - 11
+  - basket
+- !!python/tuple
+  - 12
+  - bath_sheet
+- !!python/tuple
+  - 13
+  - bathtub
+- !!python/tuple
+  - 14
+  - battery
+- !!python/tuple
+  - 15
+  - beard_color_gel
+- !!python/tuple
+  - 16
+  - beauty_pack
+- !!python/tuple
+  - 17
+  - bed
+- !!python/tuple
+  - 18
+  - bleach_cleanser
+- !!python/tuple
+  - 19
+  - blender_jar
+- !!python/tuple
+  - 20
+  - board_game
+- !!python/tuple
+  - 21
+  - book
+- !!python/tuple
+  - 22
+  - bookend
+- !!python/tuple
+  - 23
+  - bottom_cabinet
+- !!python/tuple
+  - 24
+  - bottom_cabinet_no_top
+- !!python/tuple
+  - 25
+  - bowl
+- !!python/tuple
+  - 26
+  - box
+- !!python/tuple
+  - 27
+  - bundt_pan
+- !!python/tuple
+  - 28
+  - butter_dish
+- !!python/tuple
+  - 29
+  - cake_mix
+- !!python/tuple
+  - 30
+  - cake_pan
+- !!python/tuple
+  - 31
+  - camera
+- !!python/tuple
+  - 32
+  - can_opener
+- !!python/tuple
+  - 33
+  - candle_holder
+- !!python/tuple
+  - 34
+  - candy
+- !!python/tuple
+  - 35
+  - candy_bar
+- !!python/tuple
+  - 36
+  - canister
+- !!python/tuple
+  - 37
+  - card_game
+- !!python/tuple
+  - 38
+  - carpet
+- !!python/tuple
+  - 39
+  - carrying_case
+- !!python/tuple
+  - 40
+  - casserole_dish
+- !!python/tuple
+  - 41
+  - cereal
+- !!python/tuple
+  - 42
+  - chain
+- !!python/tuple
+  - 43
+  - chair
+- !!python/tuple
+  - 44
+  - chest
+- !!python/tuple
+  - 45
+  - chocolate
+- !!python/tuple
+  - 46
+  - chocolate_box
+- !!python/tuple
+  - 47
+  - chocolate_milk_pods
+- !!python/tuple
+  - 48
+  - chocolate_powder
+- !!python/tuple
+  - 49
+  - chopping_board
+- !!python/tuple
+  - 50
+  - clamp
+- !!python/tuple
+  - 51
+  - clay
+- !!python/tuple
+  - 52
+  - clock
+- !!python/tuple
+  - 53
+  - cloth
+- !!python/tuple
+  - 54
+  - coffee_beans
+- !!python/tuple
+  - 55
+  - coffee_machine
+- !!python/tuple
+  - 56
+  - coffee_pods
+- !!python/tuple
+  - 57
+  - coffee_table
+- !!python/tuple
+  - 58
+  - coffeemaker
+- !!python/tuple
+  - 59
+  - colored_wood_blocks
+- !!python/tuple
+  - 60
+  - condiment
+- !!python/tuple
+  - 61
+  - console_table
+- !!python/tuple
+  - 62
+  - cooktop
+- !!python/tuple
+  - 63
+  - counter
+- !!python/tuple
+  - 64
+  - cracker_box
+- !!python/tuple
+  - 65
+  - crayon
+- !!python/tuple
+  - 66
+  - cube_storage_box
+- !!python/tuple
+  - 67
+  - cup
+- !!python/tuple
+  - 68
+  - cushion
+- !!python/tuple
+  - 69
+  - desk_caddy
+- !!python/tuple
+  - 70
+  - diaper_pack
+- !!python/tuple
+  - 71
+  - dietary_supplement
+- !!python/tuple
+  - 72
+  - dish_drainer
+- !!python/tuple
+  - 73
+  - dishtowel
+- !!python/tuple
+  - 74
+  - dishwasher
+- !!python/tuple
+  - 75
+  - dispensing_closure
+- !!python/tuple
+  - 76
+  - dog_bowl
+- !!python/tuple
+  - 77
+  - dog_chew_toy
+- !!python/tuple
+  - 78
+  - dollhouse_toy
+- !!python/tuple
+  - 79
+  - donut
+- !!python/tuple
+  - 80
+  - door
+- !!python/tuple
+  - 81
+  - drink_coaster
+- !!python/tuple
+  - 82
+  - dryer
+- !!python/tuple
+  - 83
+  - duct_tape
+- !!python/tuple
+  - 84
+  - dumbbell
+- !!python/tuple
+  - 85
+  - dumbbell_rack
+- !!python/tuple
+  - 86
+  - dustpan_and_brush
+- !!python/tuple
+  - 87
+  - dutch_oven
+- !!python/tuple
+  - 88
+  - easter_basket
+- !!python/tuple
+  - 89
+  - electric_heater
+- !!python/tuple
+  - 90
+  - electric_toothbrush
+- !!python/tuple
+  - 91
+  - electronic_adapter
+- !!python/tuple
+  - 92
+  - electronic_cable
+- !!python/tuple
+  - 93
+  - face_moisturizer
+- !!python/tuple
+  - 94
+  - fence
+- !!python/tuple
+  - 95
+  - file_sorter
+- !!python/tuple
+  - 96
+  - fingerpaint
+- !!python/tuple
+  - 97
+  - fitness_tracker_wristband
+- !!python/tuple
+  - 98
+  - flashlight
+- !!python/tuple
+  - 99
+  - flat_screwdriver
+- !!python/tuple
+  - 100
+  - floor_lamp
+- !!python/tuple
+  - 101
+  - foam_brick
+- !!python/tuple
+  - 102
+  - folder
+- !!python/tuple
+  - 103
+  - fondant
+- !!python/tuple
+  - 104
+  - fork
+- !!python/tuple
+  - 105
+  - fridge
+- !!python/tuple
+  - 106
+  - fruit_snack
+- !!python/tuple
+  - 107
+  - gelatin_box
+- !!python/tuple
+  - 108
+  - gloves
+- !!python/tuple
+  - 109
+  - golf_ball
+- !!python/tuple
+  - 110
+  - grandfather_clock
+- !!python/tuple
+  - 111
+  - graphics_card
+- !!python/tuple
+  - 112
+  - guitar
+- !!python/tuple
+  - 113
+  - hair_color
+- !!python/tuple
+  - 114
+  - hair_conditioner
+- !!python/tuple
+  - 115
+  - hair_dryer
+- !!python/tuple
+  - 116
+  - hair_straightener
+- !!python/tuple
+  - 117
+  - hammer
+- !!python/tuple
+  - 118
+  - hand_bell
+- !!python/tuple
+  - 119
+  - handbag
+- !!python/tuple
+  - 120
+  - hard_drive
+- !!python/tuple
+  - 121
+  - hard_drive_case
+- !!python/tuple
+  - 122
+  - hat
+- !!python/tuple
+  - 123
+  - headphones
+- !!python/tuple
+  - 124
+  - heater
+- !!python/tuple
+  - 125
+  - heavy_duty_gloves
+- !!python/tuple
+  - 126
+  - heavy_master_chef_can
+- !!python/tuple
+  - 127
+  - helmet
+- !!python/tuple
+  - 128
+  - herring_fillets
+- !!python/tuple
+  - 129
+  - honey_dipper
+- !!python/tuple
+  - 130
+  - incontinence_pads
+- !!python/tuple
+  - 131
+  - ink_cartridge
+- !!python/tuple
+  - 132
+  - instant_camera
+- !!python/tuple
+  - 133
+  - invitation_card
+- !!python/tuple
+  - 134
+  - jar
+- !!python/tuple
+  - 135
+  - jenga
+- !!python/tuple
+  - 136
+  - jewelry_box
+- !!python/tuple
+  - 137
+  - keyboard
+- !!python/tuple
+  - 138
+  - knife
+- !!python/tuple
+  - 139
+  - knife_block
+- !!python/tuple
+  - 140
+  - labeling_tape
+- !!python/tuple
+  - 141
+  - lamp
+- !!python/tuple
+  - 142
+  - lantern
+- !!python/tuple
+  - 143
+  - laptop
+- !!python/tuple
+  - 144
+  - laptop_cover
+- !!python/tuple
+  - 145
+  - laptop_stand
+- !!python/tuple
+  - 146
+  - large_marker
+- !!python/tuple
+  - 147
+  - laundry_box
+- !!python/tuple
+  - 148
+  - laxative
+- !!python/tuple
+  - 149
+  - lego_duplo
+- !!python/tuple
+  - 150
+  - lemon
+- !!python/tuple
+  - 151
+  - letter_holder
+- !!python/tuple
+  - 152
+  - light_bulb
+- !!python/tuple
+  - 153
+  - lime_squeezer
+- !!python/tuple
+  - 154
+  - lipstick
+- !!python/tuple
+  - 155
+  - loudspeaker
+- !!python/tuple
+  - 156
+  - lunch_bag
+- !!python/tuple
+  - 157
+  - lunch_box
+- !!python/tuple
+  - 158
+  - magnifying_glass
+- !!python/tuple
+  - 159
+  - mascara
+- !!python/tuple
+  - 160
+  - master_chef_can
+- !!python/tuple
+  - 161
+  - measuring_tape
+- !!python/tuple
+  - 162
+  - medicine
+- !!python/tuple
+  - 163
+  - microwave
+- !!python/tuple
+  - 164
+  - milk_frother
+- !!python/tuple
+  - 165
+  - mini_soccer_ball
+- !!python/tuple
+  - 166
+  - mirror
+- !!python/tuple
+  - 167
+  - monitor
+- !!python/tuple
+  - 168
+  - motherboard
+- !!python/tuple
+  - 169
+  - mouse
+- !!python/tuple
+  - 170
+  - mouse_pad
+- !!python/tuple
+  - 171
+  - movie_dvd
+- !!python/tuple
+  - 172
+  - mug
+- !!python/tuple
+  - 173
+  - multiport_hub
+- !!python/tuple
+  - 174
+  - mustard_bottle
+- !!python/tuple
+  - 175
+  - neck_rest
+- !!python/tuple
+  - 176
+  - nine_hole_peg_test
+- !!python/tuple
+  - 177
+  - nintendo_switch
+- !!python/tuple
+  - 178
+  - office_chair
+- !!python/tuple
+  - 179
+  - orange
+- !!python/tuple
+  - 180
+  - oven
+- !!python/tuple
+  - 181
+  - padlock
+- !!python/tuple
+  - 182
+  - paint_bottle_set
+- !!python/tuple
+  - 183
+  - paint_maker
+- !!python/tuple
+  - 184
+  - pan
+- !!python/tuple
+  - 185
+  - paper_bag
+- !!python/tuple
+  - 186
+  - parchment_sheet
+- !!python/tuple
+  - 187
+  - peach
+- !!python/tuple
+  - 188
+  - pear
+- !!python/tuple
+  - 189
+  - peg_and_hammer_toy
+- !!python/tuple
+  - 190
+  - pencil_case
+- !!python/tuple
+  - 191
+  - peppermint
+- !!python/tuple
+  - 192
+  - pepsi_can_pack
+- !!python/tuple
+  - 193
+  - pet_food_supplement
+- !!python/tuple
+  - 194
+  - phillips_screwdriver
+- !!python/tuple
+  - 195
+  - phone_armband_case
+- !!python/tuple
+  - 196
+  - phone_stand
+- !!python/tuple
+  - 197
+  - piano
+- !!python/tuple
+  - 198
+  - picture
+- !!python/tuple
+  - 199
+  - picture_frame
+- !!python/tuple
+  - 200
+  - pillow
+- !!python/tuple
+  - 201
+  - pitcher_base
+- !!python/tuple
+  - 202
+  - plant
+- !!python/tuple
+  - 203
+  - plant_container
+- !!python/tuple
+  - 204
+  - plant_saucer
+- !!python/tuple
+  - 205
+  - plate
+- !!python/tuple
+  - 206
+  - plum
+- !!python/tuple
+  - 207
+  - portable_speaker
+- !!python/tuple
+  - 208
+  - potted_meat_can
+- !!python/tuple
+  - 209
+  - power_drill
+- !!python/tuple
+  - 210
+  - pressure_cooker
+- !!python/tuple
+  - 211
+  - pudding_box
+- !!python/tuple
+  - 212
+  - puzzle_game
+- !!python/tuple
+  - 213
+  - racquetball
+- !!python/tuple
+  - 214
+  - ramekin
+- !!python/tuple
+  - 215
+  - range_hood
+- !!python/tuple
+  - 216
+  - remote_control
+- !!python/tuple
+  - 217
+  - router
+- !!python/tuple
+  - 218
+  - rubiks_cube
+- !!python/tuple
+  - 219
+  - salt_shaker
+- !!python/tuple
+  - 220
+  - sanitary_pads
+- !!python/tuple
+  - 221
+  - saucer
+- !!python/tuple
+  - 222
+  - saute_pan
+- !!python/tuple
+  - 223
+  - scissors
+- !!python/tuple
+  - 224
+  - set-top_box
+- !!python/tuple
+  - 225
+  - shelf
+- !!python/tuple
+  - 226
+  - shoe
+- !!python/tuple
+  - 227
+  - shoe_box
+- !!python/tuple
+  - 228
+  - shower
+- !!python/tuple
+  - 229
+  - shredder
+- !!python/tuple
+  - 230
+  - sidewalk_chalk
+- !!python/tuple
+  - 231
+  - sink
+- !!python/tuple
+  - 232
+  - skillet
+- !!python/tuple
+  - 233
+  - skillet_lid
+- !!python/tuple
+  - 234
+  - skin_care_product
+- !!python/tuple
+  - 235
+  - skin_moisturizer
+- !!python/tuple
+  - 236
+  - snack_cake
+- !!python/tuple
+  - 237
+  - snack_dispenser
+- !!python/tuple
+  - 238
+  - soap_dish
+- !!python/tuple
+  - 239
+  - soap_dispenser
+- !!python/tuple
+  - 240
+  - sofa
+- !!python/tuple
+  - 241
+  - sofa_chair
+- !!python/tuple
+  - 242
+  - softball
+- !!python/tuple
+  - 243
+  - software_cd
+- !!python/tuple
+  - 244
+  - sorting_toy
+- !!python/tuple
+  - 245
+  - sparkling_water
+- !!python/tuple
+  - 246
+  - spatula
+- !!python/tuple
+  - 247
+  - speaker_system
+- !!python/tuple
+  - 248
+  - sponge
+- !!python/tuple
+  - 249
+  - sponge_dish
+- !!python/tuple
+  - 250
+  - spoon
+- !!python/tuple
+  - 251
+  - spoon_rest
+- !!python/tuple
+  - 252
+  - stacking_cups
+- !!python/tuple
+  - 253
+  - stand_mixer
+- !!python/tuple
+  - 254
+  - standing_tv
+- !!python/tuple
+  - 255
+  - stool
+- !!python/tuple
+  - 256
+  - storage_bin
+- !!python/tuple
+  - 257
+  - stove
+- !!python/tuple
+  - 258
+  - strawberry
+- !!python/tuple
+  - 259
+  - string_lights
+- !!python/tuple
+  - 260
+  - stuffed_toy
+- !!python/tuple
+  - 261
+  - sugar_box
+- !!python/tuple
+  - 262
+  - sugar_sprinkles
+- !!python/tuple
+  - 263
+  - surface_saver_ring
+- !!python/tuple
+  - 264
+  - sushi_mat
+- !!python/tuple
+  - 265
+  - table
+- !!python/tuple
+  - 266
+  - table_lamp
+- !!python/tuple
+  - 267
+  - tablet
+- !!python/tuple
+  - 268
+  - tablet_holder
+- !!python/tuple
+  - 269
+  - tablet_stand
+- !!python/tuple
+  - 270
+  - tampons
+- !!python/tuple
+  - 271
+  - tea_can_pack
+- !!python/tuple
+  - 272
+  - tea_pods
+- !!python/tuple
+  - 273
+  - teapot
+- !!python/tuple
+  - 274
+  - tennis_ball
+- !!python/tuple
+  - 275
+  - thermal_laminator
+- !!python/tuple
+  - 276
+  - toaster
+- !!python/tuple
+  - 277
+  - toilet
+- !!python/tuple
+  - 278
+  - tomato_soup_can
+- !!python/tuple
+  - 279
+  - toothbrush_holder
+- !!python/tuple
+  - 280
+  - toothbrush_pack
+- !!python/tuple
+  - 281
+  - top_cabinet
+- !!python/tuple
+  - 282
+  - towel
+- !!python/tuple
+  - 283
+  - towel_rack
+- !!python/tuple
+  - 284
+  - toy_airplane
+- !!python/tuple
+  - 285
+  - toy_animal
+- !!python/tuple
+  - 286
+  - toy_basketball
+- !!python/tuple
+  - 287
+  - toy_bowling_set
+- !!python/tuple
+  - 288
+  - toy_construction_set
+- !!python/tuple
+  - 289
+  - toy_fishing
+- !!python/tuple
+  - 290
+  - toy_food
+- !!python/tuple
+  - 291
+  - toy_furniture_set
+- !!python/tuple
+  - 292
+  - toy_instrument
+- !!python/tuple
+  - 293
+  - toy_kitchen_set
+- !!python/tuple
+  - 294
+  - toy_tool_kit
+- !!python/tuple
+  - 295
+  - toy_vehicle
+- !!python/tuple
+  - 296
+  - trash_can
+- !!python/tuple
+  - 297
+  - tray
+- !!python/tuple
+  - 298
+  - treadmill
+- !!python/tuple
+  - 299
+  - tumbler
+- !!python/tuple
+  - 300
+  - umbrella
+- !!python/tuple
+  - 301
+  - usb_drive
+- !!python/tuple
+  - 302
+  - utensil_holder
+- !!python/tuple
+  - 303
+  - vase
+- !!python/tuple
+  - 304
+  - video_game
+- !!python/tuple
+  - 305
+  - vinyl_tape
+- !!python/tuple
+  - 306
+  - virtual_reality_viewer
+- !!python/tuple
+  - 307
+  - wall_mounted_tv
+- !!python/tuple
+  - 308
+  - washcloth
+- !!python/tuple
+  - 309
+  - washer
+- !!python/tuple
+  - 310
+  - waste_basket
+- !!python/tuple
+  - 311
+  - water_bottle
+- !!python/tuple
+  - 312
+  - weight_loss_guide
+- !!python/tuple
+  - 313
+  - whale_whistle
+- !!python/tuple
+  - 314
+  - window
+- !!python/tuple
+  - 315
+  - wipe_warmer
+- !!python/tuple
+  - 316
+  - wireless_accessory
+- !!python/tuple
+  - 317
+  - xylitol_sweetener

@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../objects/frl_apartment_picture_03.glb",
+  "use_bounding_box_for_collision": true,
+  "mass": 0.4,
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 59
+}
